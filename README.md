@@ -13,8 +13,8 @@ ShapeShift DAO (decentralized autonomous organization)
 Vision:
 We envision a borderless financial system built on open, decentralized protocols.
 
-## Mission:
-We shall be the pathway into this borderless financial system; an open-source, multi-chain, self-custody crypto platform enabling billions to achieve financial sovereignty.
+### What we are building
+An open-source, multi-chain, self-custody crypto platform enabling billions to achieve financial sovereignty.
 
 ## Values:
 Trustworthy - We are upfront and transparent. We are fair and accurate in our dealings with one another and with our customers. We earn trust with time and execution, rather than by expecting it by default.
