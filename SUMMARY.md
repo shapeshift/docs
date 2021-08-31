@@ -7,3 +7,12 @@
 * [Bugs](bugs.md)
 * [Pull Requests](pull-requests.md)
 * [Testing](testing.md)
+
+## HDWallet
+* [Documentation](hdwallet.md)
+## Unchained
+* [Documentation](unchained.md)
+## Web
+* [Documentation](web.md)
+## Lib
+* [Documentation](lib.md)
