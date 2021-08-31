@@ -1,9 +1,9 @@
 # Bugs
 
-(note:)
+(note)
 For Vulnerabilities please report directly to security!
 
-[HERE](https://github.com/shapeshift/docs/blob/main/SECURITY.md)
+[LINK](./SECURITY.md)
 
 
 
