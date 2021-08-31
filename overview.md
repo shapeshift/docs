@@ -14,7 +14,7 @@
 
 ![overview](https://github.com/shapeshift/docs/blob/develop/assets/architecture.png)
 
-## Links:
+## Github Spaces Links:
 * [Web](https://app.gitbook.com/@shapeshiftdao/s/web/)
 * [Lib](https://app.gitbook.com/@shapeshiftdao/s/lib/)
 * [HDWallet](https://app.gitbook.com/@shapeshiftdao/s/hdwallet/)
