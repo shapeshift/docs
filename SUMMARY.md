@@ -8,7 +8,7 @@
 * [Pull Requests](pull-requests.md)
 * [Testing](testing.md)
 
-## ShapeShift Open Source Projects
+## Open Source Projects
 * [HDWallet](hdwallet.md)
 * [Unchained](unchained.md)
 * [Web](web.md)
