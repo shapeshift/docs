@@ -9,5 +9,5 @@ For MAJOR Vulnerabilities please report directly to security for a bounty!
 open an issue in the related repo
 
 triage channel in discord channel
-
+[discord support](https://discord.gg/WQbpqEySFy)
 
