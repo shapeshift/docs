@@ -7,3 +7,9 @@
 * [Bugs](bugs.md)
 * [Pull Requests](pull-requests.md)
 * [Testing](testing.md)
+
+## Open Source Projects
+* [HDWallet](hdwallet.md)
+* [Unchained](unchained.md)
+* [Web](web.md)
+* [Lib](lib.md)
