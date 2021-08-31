@@ -11,8 +11,8 @@
  **Unchained:** A multi-blockchain backend interface
            
 
-## Repos:
-* [Web](web.md)
-* [Lib](lib.md)
-* [HDWallet](hdwallet.md)
-* [Unchained](unchained.md)
+## Links:
+* [Web](https://app.gitbook.com/@shapeshiftdao/s/web/)
+* [Lib](https://app.gitbook.com/@shapeshiftdao/s/lib/)
+* [HDWallet](https://app.gitbook.com/@shapeshiftdao/s/hdwallet/)
+* [Unchained](https://app.gitbook.com/@shapeshiftdao/s/unchained/)

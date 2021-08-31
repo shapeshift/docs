@@ -2,7 +2,6 @@
 
 ## How to Contribute
 * [Plarform Overview](overview.md)
-* [New Features](new-features.md)
 * [Bounties](bounties.md)
 * [Bugs](bugs.md)
 
