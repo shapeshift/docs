@@ -12,7 +12,7 @@
 
 ### Overview:
 
-![overview](https://github.com/shapeshift/web/blob/main/docs/architecture.png)
+![overview](https://github.com/shapeshift/docs/blob/develop/assets/architecture.png)
 
 ## Links:
 * [Web](https://app.gitbook.com/@shapeshiftdao/s/web/)
