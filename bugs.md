@@ -1,8 +1,10 @@
 # Bugs
 
-For MAJOR Vulnerabilities please report directly to security for a bounty!
+(note:)
+For Vulnerabilities please report directly to security!
 
-[HERE](https://github.com/shapeshift/docs/blob/main/SUMMARY.md)
+[HERE](https://github.com/shapeshift/docs/blob/main/SECURITY.md)
+
 
 
 ## reporting bugs
