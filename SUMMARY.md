@@ -1,12 +1,10 @@
 # Table of Contents
 
 ## How to Contribute
-* [Contribution Guidelines](contribution-guidelines.md)
-* [Bounties](bounties.md)
+* [Plarform Overview](overview.md)
 * [New Features](new-features.md)
+* [Bounties](bounties.md)
 * [Bugs](bugs.md)
-* [Pull Requests](pull-requests.md)
-* [Testing](testing.md)
 
 ## Open Source Projects
 * [HDWallet](hdwallet.md)

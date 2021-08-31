@@ -35,6 +35,5 @@ Pioneering - We innovate with digital tools, along the frontier of distributed f
 # Currently funded Engineering efforts
 
 * Open source bounties [link](https://app.boardroom.info/shapeshift/proposal/cHJvcG9zYWw6c2hhcGVzaGlmdDpkZWZhdWx0OnFtbnV5Y3NyZXhmZXN5dG9mazZlbWRzYW1vcnVpMXBjdnU0aGpwN2V5ZHZuZ3o=)
-    (catchall by work-leader)
 * Osmosis [link](https://app.boardroom.info/shapeshift/proposal/cHJvcG9zYWw6c2hhcGVzaGlmdDpkZWZhdWx0OnFtbnV5Y3NyZXhmZXN5dG9mazZlbWRzYW1vcnVpMXBjdnU0aGpwN2V5ZHZuZ3o=)
 * Globalization [link](https://app.boardroom.info/shapeshift/proposal/cHJvcG9zYWw6c2hhcGVzaGlmdDpkZWZhdWx0OnFteHBodmppa2p6aXF1ZnFwY2tvdTdmMnBoeWl4NWhhcXh1ZWJtYTZtY21uNXI=)
