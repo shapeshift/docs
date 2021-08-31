@@ -3,7 +3,7 @@
 (note)
 For Vulnerabilities please report directly to security!
 
-[LINK](./SECURITY.md)
+[Responsible Disclosure Program](https://shapeshift.com/responsible-disclosure-program)
 
 
 
