@@ -5,7 +5,7 @@ ShapeShift DAO (decentralized autonomous organization)
 
 # Quick Links:
 
- * ShapeShift (legacy) https://shapeshift.com
+ * ShapeShift: https://shapeshift.com
  * Forum: https://forum.shapeshift.com
  * Boardroom: https://app.boardroom.info/shapeshift/overview
 
