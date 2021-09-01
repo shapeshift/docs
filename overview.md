@@ -2,13 +2,18 @@
 
 (url) (Coming Soon)
 
- **Web:** This repo hosts the primary React app.
+github org: [link](https://github.com/shapeshift)
+
+(url) (Coming Soon)
+
+ **Web:** This repo hosts the primary React app. [link](https://github.com/shapeshift/web)
  
- **Lib:** This repo hosts the libraries of referenced code in web
+ **Lib:** This repo hosts the libraries of referenced code in web [link](https://github.com/shapeshift/lib)
  
- **HDWallet:** A multi-chain library for interacting with a varity of supported wallets
+ **HDWallet:** A multi-chain library for interacting with a varity of supported wallets [link](https://github.com/shapeshift/hdwallet)
  
- **Unchained:** A multi-blockchain backend interface
+ **Unchained:** A multi-blockchain backend interface [link](https://github.com/shapeshift/unchained)
+
 
 ### Overview:
 
