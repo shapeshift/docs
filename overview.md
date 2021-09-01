@@ -2,8 +2,6 @@
 
 github org: [link](https://github.com/shapeshift)
 
-(url) (Coming Soon)
-
  **Web:** This repo hosts the primary React app. [link](https://github.com/shapeshift/web)
  
  **Lib:** This repo hosts the libraries of referenced code in web [link](https://github.com/shapeshift/lib)
