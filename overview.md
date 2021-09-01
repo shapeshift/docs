@@ -1,7 +1,5 @@
 # ShapeShift Platform
 
-(url) (Coming Soon)
-
 github org: [link](https://github.com/shapeshift)
 
 (url) (Coming Soon)
