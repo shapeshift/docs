@@ -30,11 +30,11 @@ Twice weekly, Tuesday and Thursdays @ 7PM UTC
 1. Once all blocking issues have been resolved and Operations Lead and Product Lead have signed off, the Release Manager will merge the branch to main and monitor the deployment.  Once the deployment has been completed they will notify the release discord thread for final confirmation from Product and Operations once in production.
 1. Operations Lead monitors customer channels and any applicable performance metrics / smoke tests over the next 24 hours and alerts the Release manager if any issues arise that are suspected to be from the release. Our default response is to roll back if the release is expected to have broken any critical functionality. 
 
-Hotfixes
+## Hotfixes
 1. Hotfixes can be made out of band from our scheduled releases as dictated by the severity of the issue being mitigated.
 1. We still recommend following steps 3 - 9 above in these cases. With a hotfix branch being cut from main and then merged back into main and develop once completed.
 	
-Feature Releases in Web:
+## Feature Releases in Web:
 
 Shapeshift DAO will have four distinct environments that are a part of the testing and release flow: 1) development 2) release branch 3) alpha and 4) production. LaunchDarkly, pending a security review, will be used to control feature flags in all sub-production environments.
 
