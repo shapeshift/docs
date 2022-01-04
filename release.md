@@ -19,7 +19,7 @@ Twice weekly, Tuesday and Thursdays @ 7PM UTC
     1. Foxfarm
     1. Unchained 
 1. For each repository with changes create a release branch from the current develop branch. This branch should be named in the following format with XX.YY representing the major and minor versions  `release/XX.YY.ZZ`.
-1. Open a Pull Request on Github for this branch with the following naming convention `YYYY-DD-MM release/XX.YY.ZZ`. YYYY-MM-DD should be the release date, not the current date.
+1. On Github, create a pull request into the Main branch for this new release branch with the following naming convention:`YYYY-MM-DD release/XX.YY.ZZ`. YYYY-MM-DD should be the release date, not the current date.
 1. Create a thread in the #operations-publicchat discord channel with the following format. `YYYY-MM-DD repo-name release/XX.YY.ZZ`.  For example `2022-01-18 web release/1.55.21`
 1. In the thread create a summary of the release including new customer facing functionality or bug fixes that can help product and operations to verify functionality, ping the following workstreams by mentioning them in the discord thread and identify each of the people filling the above Roles by discord handle. Please also alert any engineer with code shipping to production in the channel. 
     1. Operations
