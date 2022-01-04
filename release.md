@@ -19,16 +19,17 @@ Twice weekly, Tuesday and Thursdays @ 7PM UTC
     1. Foxfarm
     1. Unchained 
 1. For each repository with changes create a release branch from the current develop branch. This branch should be named in the following format with XX.YY representing the major and minor versions  `release/XX.YY.ZZ`.
-1. On Github, create a pull request into the Main branch for this new release branch with the following naming convention:`YYYY-MM-DD release/XX.YY.ZZ`. YYYY-MM-DD should be the release date, not the current date.
-1. Create a thread in the #operations-publicchat discord channel with the following format. `YYYY-MM-DD repo-name release/XX.YY.ZZ`.  For example `2022-01-18 web release/1.55.21`
-1. In the thread create a summary of the release including new customer facing functionality or bug fixes that can help product and operations to verify functionality, ping the following workstreams by mentioning them in the discord thread and identify each of the people filling the above Roles by discord handle. Please also alert any engineer with code shipping to production in the channel. 
+2. Test
+3. On Github, create a pull request into the Main branch for this new release branch with the following naming convention:`YYYY-MM-DD release/XX.YY.ZZ`. YYYY-MM-DD should be the release date, not the current date.
+4. Create a thread in the #operations-publicchat discord channel with the following format. `YYYY-MM-DD repo-name release/XX.YY.ZZ`.  For example `2022-01-18 web release/1.55.21`
+5. In the thread create a summary of the release including new customer facing functionality or bug fixes that can help product and operations to verify functionality, ping the following workstreams by mentioning them in the discord thread and identify each of the people filling the above Roles by discord handle. Please also alert any engineer with code shipping to production in the channel. 
     1. Operations
     1. Engineering
     1. Product
-1. If blocking issues are discovered in the release branch the person who has found the issue should add it to github and comment on the Pull Request with a link to the issue.  This will serve as the release checklist to inform the go / no-go decision on the final merge to production.
-1. The Release Manager will be responsible for coordinating any fixes.  If they are able to resolve the issue themselves they may, or if not they will pull in the needed engineering resources to do so. Ultimately, they may also decide to push back the release until the next window if the issues are too severe or risky given the time frame. 
-1. Once all blocking issues have been resolved and Operations Lead and Product Lead have signed off, the Release Manager will merge the branch to main and monitor the deployment.  Once the deployment has been completed they will notify the release discord thread for final confirmation from Product and Operations once in production.
-1. Operations Lead monitors customer channels and any applicable performance metrics / smoke tests over the next 24 hours and alerts the Release manager if any issues arise that are suspected to be from the release. Our default response is to roll back if the release is expected to have broken any critical functionality. 
+6. If blocking issues are discovered in the release branch the person who has found the issue should add it to github and comment on the Pull Request with a link to the issue.  This will serve as the release checklist to inform the go / no-go decision on the final merge to production.
+7. The Release Manager will be responsible for coordinating any fixes.  If they are able to resolve the issue themselves they may, or if not they will pull in the needed engineering resources to do so. Ultimately, they may also decide to push back the release until the next window if the issues are too severe or risky given the time frame. 
+8. Once all blocking issues have been resolved and Operations Lead and Product Lead have signed off, the Release Manager will merge the branch to main and monitor the deployment.  Once the deployment has been completed they will notify the release discord thread for final confirmation from Product and Operations once in production.
+9. Operations Lead monitors customer channels and any applicable performance metrics / smoke tests over the next 24 hours and alerts the Release manager if any issues arise that are suspected to be from the release. Our default response is to roll back if the release is expected to have broken any critical functionality. 
 
 ## Hotfixes
 1. Hotfixes can be made out of band from our scheduled releases as dictated by the severity of the issue being mitigated.
