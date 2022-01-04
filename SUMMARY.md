@@ -8,6 +8,7 @@
 * [Platform Overview](overview.md)
 * [Branching](branching.md)
 * [Release Process](release.md)
+* [Security](security.md)
 
 ## Open Source Project Repositories
 * [HDWallet](hdwallet.md)
