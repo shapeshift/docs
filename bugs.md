@@ -1,11 +1,6 @@
 # Bugs
-
 (note)
-For Vulnerabilities please report directly to security!
-
-[Responsible Disclosure Program](https://shapeshift.com/responsible-disclosure-program)
-
-
+For Vulnerabilities please report directly to [security](security.md)!
 
 ## reporting bugs
 open an issue in the related repo
