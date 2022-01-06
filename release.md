@@ -32,13 +32,20 @@ Twice weekly, Tuesday and Thursdays @ 7PM UTC
 10. Once all blocking issues have been resolved and merged into the release branch, and Operations Lead and Product Lead have signed off, the Release Manager will merge the branch to main, without doing a squash merge.
 11. This needs to be done at the command line
     1. go to repo directory
-    2. git pull 
-    3. git checkout release/XX.YY.ZZ
-    4. git pull
-    5. git checkout main
-    6. git pull
-    7. git merge release/XX.YY.ZZ
-    8. git push origin main
+    2. git fetch
+    3. git checkout develop
+    4. git reset --hard origin/develop
+    5. git checkout -b releases/vXX.YY.ZZ
+    6. git push origin releases/vXX.YY.ZZ
+    7. # After testing, merge to main
+    8. git checkout main
+    9. git reset --hard origin/main
+    10. git merge --no-ff releases/vXX.YY.ZZ
+    11. git tag -a -m "vXX.YY.ZZ" vXX.YY.ZZ
+    12. git push origin main --tags
+    13. # Delete the release branch
+    14. git branch -d releases/vXX.YY.ZZ
+    15. git push origin --delete releases/vXX.YY.ZZ
 13. Release manager will monitor the deployment.  Once the deployment has been completed they will notify the release discord thread for final confirmation from Product and Operations once in production.
 14. Operations Lead monitors customer channels and any applicable performance metrics / smoke tests over the next 24 hours and alerts the Release manager if any issues arise that are suspected to be from the release. Our default response is to roll back if the release is expected to have broken any critical functionality. 
 
