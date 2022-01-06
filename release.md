@@ -30,8 +30,17 @@ Twice weekly, Tuesday and Thursdays @ 7PM UTC
 8. The Release Manager will be responsible for coordinating any fixes.  If they are able to resolve the issue themselves they may, or if not they will pull in the needed engineering resources to do so. Ultimately, they may also decide to push back the release until the next window if the issues are too severe or risky given the time frame. 
 9. Blocking issue fixes should be merged directly into the `release/XX.YY.ZZ` branch.
 10. Once all blocking issues have been resolved and merged into the release branch, and Operations Lead and Product Lead have signed off, the Release Manager will merge the branch to main, without doing a squash merge.
-11. Release manager will monitor the deployment.  Once the deployment has been completed they will notify the release discord thread for final confirmation from Product and Operations once in production.
-12. Operations Lead monitors customer channels and any applicable performance metrics / smoke tests over the next 24 hours and alerts the Release manager if any issues arise that are suspected to be from the release. Our default response is to roll back if the release is expected to have broken any critical functionality. 
+11. This needs to be done at the command line
+    1. go to repo directory
+    2. git pull 
+    3. git checkout release/XX.YY.ZZ
+    4. git pull
+    5. git checkout main
+    6. git pull
+    7. git merge release/XX.YY.ZZ
+    8. git push origin main
+13. Release manager will monitor the deployment.  Once the deployment has been completed they will notify the release discord thread for final confirmation from Product and Operations once in production.
+14. Operations Lead monitors customer channels and any applicable performance metrics / smoke tests over the next 24 hours and alerts the Release manager if any issues arise that are suspected to be from the release. Our default response is to roll back if the release is expected to have broken any critical functionality. 
 
 ## Hotfixes
 1. Hotfixes can be made out of band from our scheduled releases as dictated by the severity of the issue being mitigated.
