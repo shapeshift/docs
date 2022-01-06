@@ -47,7 +47,8 @@ Twice weekly, Tuesday and Thursdays @ 7PM UTC
     14. git branch -d releases/vXX.YY.ZZ
     15. git push origin --delete releases/vXX.YY.ZZ
 13. Release manager will monitor the deployment.  Once the deployment has been completed they will notify the release discord thread for final confirmation from Product and Operations once in production.
-14. Operations Lead monitors customer channels and any applicable performance metrics / smoke tests over the next 24 hours and alerts the Release manager if any issues arise that are suspected to be from the release. Our default response is to roll back if the release is expected to have broken any critical functionality. 
+14. Operations Lead monitors customer channels and any applicable performance metrics / smoke tests over the next 24 hours and alerts the Release manager if any issues arise that are suspected to be from the release. 
+15. Our default response is to roll back if the release is expected to have broken any critical functionality. To rollback, you can find the previous release on the main branch in CloudFlare pages, click the `view build` link on the right. Then, in the upper right, you'll see a `Manage Deployment` dropdown. Choose the `Rollback` option. The deployment occurs pretty close to immediately.
 
 ## Hotfixes
 1. Hotfixes can be made out of band from our scheduled releases as dictated by the severity of the issue being mitigated.
