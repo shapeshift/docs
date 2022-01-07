@@ -19,37 +19,37 @@ Twice weekly, Tuesday and Thursdays @ 7PM UTC
     1. Foxfarm
     1. Unchained 
 1. For each repository with changes create a release branch from the current develop branch. This branch should be named in the following format with XX.YY representing the major and minor versions  `release/XX.YY.ZZ`.
-2. Build the ephemeral environment for testing: On Github, create a pull request into the Main branch for this new release branch with the following naming convention: `chore: release/1.0.4 do not merge`. Get the URL for this PR from Github.
-4. Create a thread in the #operations-publicchat discord channel with the following format. `YYYY-MM-DD repo-name release/XX.YY.ZZ`.  For example `2022-01-18 web release/1.55.21`
-5. In the thread create a summary of the release including new customer facing functionality or bug fixes that can help product and operations to verify functionality, ping the following workstreams by mentioning them in the discord thread and identify each of the people filling the above Roles by discord handle. Also include the URL of the ephemeral environment found in the step above. Please also alert any engineer with code shipping to production in the channel. 
+1. Build the ephemeral environment for testing: On Github, create a pull request into the Main branch for this new release branch with the following naming convention: `chore: release/1.0.4 do not merge`. Get the URL for this PR from Github.
+1. Create a thread in the #operations-publicchat discord channel with the following format. `YYYY-MM-DD repo-name release/XX.YY.ZZ`.  For example `2022-01-18 web release/1.55.21`
+1. In the thread create a summary of the release including new customer facing functionality or bug fixes that can help product and operations to verify functionality, ping the following workstreams by mentioning them in the discord thread and identify each of the people filling the above Roles by discord handle. Also include the URL of the ephemeral environment found in the step above. Please also alert any engineer with code shipping to production in the channel. 
     1. Operations
     1. Engineering
     1. Product
-6. If blocking issues are discovered in the release branch, it should be reported in the thread created above.
-7. The person who has found the issue should add it to github and comment on the Pull Request with a link to the issue.  This will serve as the release checklist to inform the go / no-go decision on the final merge to production.
-8. The Release Manager will be responsible for coordinating any fixes.  If they are able to resolve the issue themselves they may, or if not they will pull in the needed engineering resources to do so. Ultimately, they may also decide to push back the release until the next window if the issues are too severe or risky given the time frame. 
-9. Blocking issue fixes should be merged directly into the `release/XX.YY.ZZ` branch.
-10. Once all blocking issues have been resolved and merged into the release branch, and Operations Lead and Product Lead have signed off, the Release Manager will merge the branch to main, without doing a squash merge.
-11. This needs to be done at the command line
+1. If blocking issues are discovered in the release branch, it should be reported in the thread created above.
+1. The person who has found the issue should add it to github and comment on the Pull Request with a link to the issue.  This will serve as the release checklist to inform the go / no-go decision on the final merge to production.
+1. The Release Manager will be responsible for coordinating any fixes.  If they are able to resolve the issue themselves they may, or if not they will pull in the needed engineering resources to do so. Ultimately, they may also decide to push back the release until the next window if the issues are too severe or risky given the time frame. 
+1. Blocking issue fixes should be merged directly into the `release/XX.YY.ZZ` branch.
+1. Once all blocking issues have been resolved and merged into the release branch, and Operations Lead and Product Lead have signed off, the Release Manager will merge the branch to main, without doing a squash merge.
+1. This needs to be done at the command line
     1. go to repo directory
-    2. git fetch
-    3. git checkout develop
-    4. git reset --hard origin/develop
-    5. git checkout -b releases/vXX.YY.ZZ
-    6. git push origin releases/vXX.YY.ZZ
-    7. # After testing, merge to main
-    8. git checkout main
-    9. git reset --hard origin/main
-    10. git merge --no-ff releases/vXX.YY.ZZ
-    11. git tag -a -m "vXX.YY.ZZ" vXX.YY.ZZ
-    12. git push origin main --tags
-    13. # Delete the release branch
-    14. git branch -d releases/vXX.YY.ZZ
-    15. git push origin --delete releases/vXX.YY.ZZ
-    16. (script will soon be added to do these steps)
-13. Release manager will monitor the deployment.  Once the deployment has been completed they will notify the release discord thread for final confirmation from Product and Operations once in production.
-14. Operations Lead monitors customer channels and any applicable performance metrics / smoke tests over the next 24 hours and alerts the Release manager if any issues arise that are suspected to be from the release. 
-15. Our default response is to roll back if the release is expected to have broken any critical functionality. To rollback, you can find the previous release on the main branch in CloudFlare pages, click the `view build` link on the right. Then, in the upper right, you'll see a `Manage Deployment` dropdown. Choose the `Rollback` option. The deployment occurs pretty close to immediately.
+    1. git fetch
+    1. git checkout develop
+    1. git reset --hard origin/develop
+    1. git checkout -b releases/vXX.YY.ZZ
+    1. git push origin releases/vXX.YY.ZZ
+    1. # After testing, merge to main
+    1. git checkout main
+    1. git reset --hard origin/main
+    1. git merge --no-ff releases/vXX.YY.ZZ
+    1. git tag -a -m "vXX.YY.ZZ" vXX.YY.ZZ
+    1. git push origin main --tags
+    1. # Delete the release branch
+    1. git branch -d releases/vXX.YY.ZZ
+    1. git push origin --delete releases/vXX.YY.ZZ
+    1. (script will soon be added to do these steps)
+1. Release manager will monitor the deployment.  Once the deployment has been completed they will notify the release discord thread for final confirmation from Product and Operations once in production.
+1. Operations Lead monitors customer channels and any applicable performance metrics / smoke tests over the next 24 hours and alerts the Release manager if any issues arise that are suspected to be from the release. 
+1. Our default response is to roll back if the release is expected to have broken any critical functionality. To rollback, you can find the previous release on the main branch in CloudFlare pages, click the `view build` link on the right. Then, in the upper right, you'll see a `Manage Deployment` dropdown. Choose the `Rollback` option. The deployment occurs pretty close to immediately.
 
 ## Hotfixes
 1. Hotfixes can be made out of band from our scheduled releases as dictated by the severity of the issue being mitigated.
