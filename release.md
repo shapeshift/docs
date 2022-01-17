@@ -41,7 +41,7 @@ Twice weekly, Tuesday and Thursdays @ 7PM UTC
 1. Once all blocking issues have been resolved and merged into the release branch, and Operations Lead and Product Lead have signed off, the Release Manager will merge the branch to main, without doing a squash merge.
 10. This needs to be done at the command line (directions to run via script also provided):
     # After testing, merge to main
-    For web codebase, you can use this script: web/scripts/release.sh main releases/vXX.YY.ZZ
+    For web codebase, you can use this script: web/scripts/release.sh main vXX.YY.ZZ
     For othercodebases, these are the commands:
     1. git checkout main
     1. git reset --hard origin/main
