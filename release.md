@@ -20,7 +20,7 @@ Twice weekly, Tuesday and Thursdays @ 7PM UTC
     1. Unchained 
 1. For each repository with changes create a release branch from the current develop branch. This branch should be named in the following format with XX.YY representing the major and minor versions  `releases/vXX.YY.ZZ`.
 1. Build the ephemeral environment for testing:
-    1. For the web codebase, this can be executed with this command: web/scripts/release.sh release releases/vXX.YY.ZZ
+    1. For the web codebase, this can be executed with this command: web/scripts/release.sh release vXX.YY.ZZ
     For other codebases, run manually with these commands:  
     1. go to repo directory
     1. git fetch
