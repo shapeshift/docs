@@ -64,10 +64,10 @@ The DAO's RDP covers code, not specific running instances of that code, but it's
   -  [shapeshift-io.hellonext.co](https://shapeshift-io.hellonext.co/) (hosted by HelloNext, a third-party)
   -  [beta.shapeshift.com](https://beta.shapeshift.com) (a legacy system maintained by the ShapeShift Foundation, not the ShapeShift DAO)
   -  [auth.shapeshift.com](https://auth.shapeshift.com) (a legacy system maintained by the ShapeShift Foundation, not the ShapeShift DAO)
-  -  [portis.io](https://portis.io) (Portis is now a separate company)
-  -  [coincap.io](https://coincap.io) (CoinCap is now a separate company)
   -  [portal.shapeshift.io](https://portal.shapeshift.io) (a legacy system maintained by the ShapeShift Foundation, not the ShapeShift DAO)
   -  The ShapeShift [mobile app](https://apps.apple.com/us/app/shapeshift-buy-trade-crypto/id996569075) (a legacy system maintained by the ShapeShift Foundation, not the ShapeShift DAO)
+  -  [portis.io](https://portis.io) (Portis is now a separate company)
+  -  [coincap.io](https://coincap.io) (CoinCap is now a separate company)
 
 If you find an issue with something that isn't in scope, please still make a report; we'll do our best to make sure they're routed to the right people and handled appropriately. However, we can't offer any rewards for reports about out-of-scope systems, and we can't make any guarantees about the resolution of issues in systems the DAO doesn't maintain.
 
