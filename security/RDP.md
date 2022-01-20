@@ -18,7 +18,7 @@ We ask that you keep any issues confidential for a period of 90 days following y
 
 ## Researcher Guidelines
 
-All software the DAO maintains is open-source and available to the public, and you do not need special permission from us to perform security research on our software or systems. Rest assured that whether or not you choose to particiate in our Responsible Disclosure Program, we will not pursue any legal action against you or your company for unlawful access of computer systems, access of confidential information, or damages to our systems. Still, we request that you follow Wheaton's Law and conduct your research in a manner respectful of us and our users.
+All software the DAO maintains is open-source and available to the public, and you do not need special permission from us to perform security research on our software or systems. Rest assured that whether or not you choose to participate in our Responsible Disclosure Program, we will not pursue any legal action against you or your company for unlawful access of computer systems, access of confidential information, or damages to our systems. Still, we request that you follow Wheaton's Law and conduct your research in a manner respectful of us and our users.
 
 - Please refrain from attempting to cause denials of service by leveraging high volumes of traffic.
 - Please don't use any vulnerabilities you may find against any of our users if you don't have their permission.
@@ -28,7 +28,7 @@ When in doubt, we do have some testing environments that may come in handy if yo
 
 ### Submitting Patches
 
-Since all the code eligible covered by the RDP is open-source, you may also want to contribute a patch for the issues you report; doing so may make you eligible for a bounty from our Engineering Workstream on top of your RDP rewards! However, please do note that sumbitting patches or pull requests via our ordinary engineering workflow (by definition) mades them public, which may breach the confidentiality requirement for receiving an RDP award. If you'd like to submit a patch for an issue you're reporting under the RDP, please make sure that you let us know first so that we can coordinate the process.
+Since all the code eligible covered by the RDP is open-source, you may also want to contribute a patch for the issues you report; doing so may make you eligible for a bounty from our Engineering Workstream on top of your RDP rewards! However, please do note that submitting patches or pull requests via our ordinary engineering workflow (by definition) makes them public, which may breach the confidentiality requirement for receiving an RDP award. If you'd like to submit a patch for an issue you're reporting under the RDP, please make sure that you let us know first so that we can coordinate the process.
 
 ### Program Scope
 
@@ -83,7 +83,7 @@ Any valid, in-scope issues is covered under this program; however, what exactly 
 - Most `Host` header injections (the ability to attack yourself isn't a security issue)
 - Information disclosure issues that only disclose publicly available information (like stuff that's recorded on a blockchain)
 - Attacks which require physical access to a user's device (including KeepKey, which is not intended to be tamper-resistant)
-- Attacks which require arbitrary code exection on a user's computer (except KeepKey, where protecting against that sort of thing is the whole point)
+- Attacks which require arbitrary code execution on a user's computer (except KeepKey, where protecting against that sort of thing is the whole point)
 
 This list is not exhaustive, and we'll update it with more salient examples as we discover points of confusion; still, hopefully it's relatively self-explanatory.
 
