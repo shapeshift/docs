@@ -5,6 +5,13 @@ At ShapeShift, we take security seriously.
 
 The ShapeShift DAO is happy to announce its Responsible Disclosure Program (RDP), which is designed to incentivize security researchers to actively test our products and report any vulnerabilities discovered in a manner which allows us a window of opportunity to assess and remediate the underlying issues in advance of public disclosure.
 
+## Reporting Issues
+
+You may report issues by sending an email to [security@shapeshift.io](mailto:security@shapeshift.io), or by opening a ZenDesk ticket via our [web form](https://shapeshift.zendesk.com/hc/en-us/requests/new?ticket_form_id=4419512276365). The ShapeShift DAO's Security Workstream will review your reports, and get back to you within 24 hours.
+
+You can encrypt your report to the Security Workstream's [GPG key](https://ipfs.io/ipfs/bafybeicenclfzbrc3rnuknzzhiqyqzql2ax77s6oifj3hy2wolhfclv5jm/0CCAE62C4CE9AD1F.asc) if you'd like. (Previously, ShapeShift US operated a different RDP program using a [different](https://ipfs.io/ipfs/bafybeigmy2k65gxpl5u2wp56pdkr4xjkepgy2lw7ywxxsvfm6xdptl6mhu/04B97C31DF76FA40.asc) root key; [here](https://ipfs.io/ipfs/bafybeicvowvsgzb3qqxylre2diuusmao3bu5cinru7htv2htmoq5ims2a4) you can find a message signed under an [intermediate](https://ipfs.io/ipfs/bafybeieo5z3kgogurjaughcr7zssxxcrjsuzgp6kqt4hkvrnvssn24iepy/86ED7AD1A2204998.asc) ShapeShift US key which describes the program transition and confirms the new key's provenance.)
+
+
 ## Disclosure Policy
 
 We ask that you keep any issues confidential for a period of 90 days following your report to us, or until they are remediated, whichever is shorter. This is intended to allow us a window of opportunity to assess and remediate the underlying issues in advance of their public disclosure. Your participation in this program is contingent on this confidentiality; you may choose to disclose whatever you wish at any time, but doing so during the confidentiality period will forfeit any rewards you may have otherwise been eligible for.
@@ -18,6 +25,10 @@ All software the DAO maintains is open-source and available to the public, and y
 - Please avoid intentionally degrading our users' experience.
 
 When in doubt, we do have some testing environments that may come in handy if you'd like to try stuff like this. Feel free to drop into our [Discord server](https://discord.gg/shapeshift) and chat with us in that case; we'll work with you.
+
+### Submitting Patches
+
+Since all the code eligible covered by the RDP is open-source, you may also want to contribute a patch for the issues you report; doing so may make you eligible for a bounty from our Engineering Workstream on top of your RDP rewards! However, please do note that sumbitting patches or pull requests via our ordinary engineering workflow (by definition) mades them public, which may breach the confidentiality requirement for receiving an RDP award. If you'd like to submit a patch for an issue you're reporting under the RDP, please make sure that you let us know first so that we can coordinate the process.
 
 ### Program Scope
 
@@ -82,9 +93,7 @@ The question of whether an issue is valid usually boils down to one of threat mo
 
 We offer two types of reward for your reports under this program: a Goodwill Bounty and an Additional Bounty. Goodwill Bounties are $200 (in xDAI) and are awarded to every report of a valid issue under this program as long as you follow the program guidelines and respect our 90-day confidentiality period. Additional Bounties are recommended to the ShapeShift DAO by its Bounty Committee, which meets on a periodic basis to assess the impact of resolved RDP reports and consider Additional Bounty awards.
 
-The Bounty Committee's recommendations are made entirely at its own discretion, and the payment of them is made entirely at the discretion of the DAO itself. Not every issue will receive an Additional Bounty award; low-impact issues may receive only the Goodwill Bounty. However, this process means that there is no fixed budget or upper limit for bounty awards; each award is made via a formal DAO governance proposal, which can draw on all the resources of the DAO.
-
-(Among other benefits, this process means that RDP bounties are not subject to the vagaries of the budget cycle; for example, if you report a high-impact vulnerability, your award will not be reduced because someone else reported something else serious before you and drained the budget.)
+The Bounty Committee's recommendations are made entirely at its own discretion, and the payment of them is made entirely at the discretion of the DAO itself. Not every issue will receive an Additional Bounty award; low-impact issues may receive only the Goodwill Bounty. However, this process means that there is no fixed budget or upper limit for bounty awards; each award is made via a formal DAO governance proposal, which can draw on all the resources of the DAO. (Among other benefits, this process means that RDP bounties are not subject to the vagaries of the budget cycle; for example, if you report a high-impact vulnerability, your award will not be reduced because someone else reported something else serious before you and drained the budget.)
 
 ### Hall of Fame NFT
 
@@ -95,9 +104,3 @@ For the duration of the confidentiality period, your NFT will be locked. It will
 When your NFT is unlocked you will receive your Goodwill Bounty, and you may also update the NFT to contain a name and hyperlink of your choice. (These submissions must be professional, and are subject to content moderation at the sole discretion of the DAO and its Security Workstream.) This will provide public, verifiable recognition of your contribution, which we hope will be of value in your professional career.
 
 We take care when evaluating reports for award of an Additional Bounty; the process will take at least two weeks after your issue is resolved, and could take as long as several months. We recognize, though, that you may not want to wait, and our policy of paying Additional Bounties to NFT holders means that you don't have to; instead, you can sell your NFT. Hall of Fame NFT buyers purchase the rights to any Additional Bounty which may be forthcoming, but they also purchase the risk associated with the wait and the uncertainty associated with the award process. A specific goal of the RDP is for Hall of Fame NFTs to attract buyers who are not simply collectors or speculators, but who have both experience with our process and a good understanding of the impact of security issues and can give you a fair price, allowing us to retain our high process quality standards for making bounty awards without compromising your options as a researcher.
-
-## Reporting
-
-You may report issues via [email](mailto:security@shapeshift.io) or [web](https://shapeshift.zendesk.com/hc/en-us/requests/new?ticket_form_id=4419512276365) channels. The ShapeShift DAO's Security Workstream handles RDP reports, and targets a 24-hour time-to-first-response.
-
-You can encrypt your report to the Security Workstream's [GPG key](https://ipfs.io/ipfs/bafybeicenclfzbrc3rnuknzzhiqyqzql2ax77s6oifj3hy2wolhfclv5jm/0CCAE62C4CE9AD1F.asc) if you'd like. (Previously, ShapeShift US operated a different RDP program using a [different](https://ipfs.io/ipfs/bafybeigmy2k65gxpl5u2wp56pdkr4xjkepgy2lw7ywxxsvfm6xdptl6mhu/04B97C31DF76FA40.asc) root key; [here](https://ipfs.io/ipfs/bafybeicvowvsgzb3qqxylre2diuusmao3bu5cinru7htv2htmoq5ims2a4) you can find a message signed under an [intermediate](https://ipfs.io/ipfs/bafybeieo5z3kgogurjaughcr7zssxxcrjsuzgp6kqt4hkvrnvssn24iepy/86ED7AD1A2204998.asc) ShapeShift US key which describes the program transition and confirms the new key's provenance.)
