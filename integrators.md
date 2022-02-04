@@ -32,9 +32,9 @@ This process is intended to be followed for large technical initiatives and not 
 6. Any new dependencies, cross origin requests, integrations with centralized third parties, or modifications to code that impacts security (e.g. wallets) may require input and review from the Security Workstream.
 7. Begin work on your new feature.  It is recommended that you create a new branch that will act as your development branch and that you keep up to date with our development branch(es) frequently to avoid messy conflicts. We are happy to provide intermediate code reviews and welcome any changes to our documentation as your team progresses. Additionally, we will coordinate if multiple external teams are working on the same area of the code to avoid a scenario where multiple external branches may be in conflict. 
 8. As you near dev completion of your feature, please do the following:
-    2. Notify Operations and Product workstreams.  
-    3. Open any remaining Pull Requests and notify the Engineering workstream via discord to schedule a final review meeting.
-    4. Keep your branch regularly updated with `develop` to avoid merge conflicts.
+    1. Notify Operations and Product workstreams.  
+    1. Open any remaining Pull Requests and notify the Engineering workstream via discord to schedule a final review meeting.
+    1. Keep your branch regularly updated with `develop` to avoid merge conflicts.
 9. During the final review meeting, please present your feature to the engineering workstream, explain any operational concerns on the deployment, launch, and on-going maintenance of the feature. Identify any risks with the launch and share any resources the team may need as they take ownership of the feature after the warranty period.
 10. Fulfill your obligations for the 30 day warranty period, this may include on-call support if your feature demands it.  
 11. Provide feedback to our team and DAO on this process and how we can improve it. 
