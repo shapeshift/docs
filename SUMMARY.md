@@ -2,6 +2,7 @@
 
 ## How to Contribute
 * [Bounties](bounties.md)
+* [Technical Integrators](integrators.md)
 * [Bugs](bugs.md)
 
 ## General Information

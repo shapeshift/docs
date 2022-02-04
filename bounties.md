@@ -24,4 +24,8 @@ Want to work on something that you don't see listed? Have an idea on a new proje
 We are at the start of building out more resources for contributors. If you are unable to find what you need please feel free to ask questions in our #engineering-public [Discord](https://discord.gg/shapeshift) channel.  If it's over the weekend it may take us a bit to respond, but we will get to your question. If you ask a question and get a good answer consider adding it to the [FAQs](FAQ.md) here.
  
 Additionally, feel free to attend Engineering Standup Every Weekday 17:00 UTC in [Discord](https://discord.gg/shapeshift) #Standup-AllAccess.  You can introduce yourself and we can often find someone to pair up with you if you need assistance for a few minutes after the meeting. 
+
+
+#### Looking to integrate a large feature?
+Please check out this [document](integrators.md)
  
