@@ -1,4 +1,5 @@
 # docs
+
 Documentation
 
 ShapeShift DAO (decentralized autonomous organization)
@@ -10,10 +11,12 @@ ShapeShift DAO (decentralized autonomous organization)
  * Boardroom: https://app.boardroom.info/shapeshift/overview
 
 ## Mission
+
 Vision:
 We envision a borderless financial system built on open, decentralized protocols.
 
 ### What we are building
+
 An open-source, multi-chain, self-custody crypto platform enabling billions to achieve financial sovereignty.
 
 ## Values:
@@ -27,10 +30,9 @@ An open-source, multi-chain, self-custody crypto platform enabling billions to a
 
 *Pioneering* - We innovate with digital tools, along the frontier of distributed finance. Casting off from the paternalistic comfort of a permissioned world, we build in the wilds, readying sanctuary from the dark clouds of fiat’s twilight hour. We expect maturity, grit, and stoic resolve.
 
-
 # Social Links:
- * https://discord.gg/shapeshift
 
+ * https://discord.gg/shapeshift
 
 # Currently funded Engineering efforts
 

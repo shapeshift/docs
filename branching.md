@@ -1,6 +1,6 @@
 # Branching
 
-We use [git flow](https://danielkummer.github.io/git-flow-cheatsheet/) for our branching strategy.
+We use [git-flow](https://danielkummer.github.io/git-flow-cheatsheet/) for our branching strategy.
 
 ### General Concepts
 
@@ -17,7 +17,7 @@ We use [git flow](https://danielkummer.github.io/git-flow-cheatsheet/) for our b
 
 - Develop
 
-  - The develop branch is the main branch for current development. When features are thought to be done and code reviewed, they are merged into the develop branch. Though not considered stable, this branch has the most up to date features in it.
+  - The develop branch is the main branch for current development. When features are thought to be done and code reviewed, they are merged into the develop branch. Though not considered stable, this branch has the most up-to-date features in it.
 
 - Release
 
