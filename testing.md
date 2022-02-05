@@ -13,12 +13,12 @@ Before submitting your changes in a pull request, always run the full test suite
   - backend - [jest](https://jestjs.io/docs/getting-started)
   - frontend - [jest](https://jestjs.io/docs/getting-started), [react testing library](https://testing-library.com/docs/react-testing-library/intro/), [react testing library hooks](https://github.com/testing-library/react-hooks-testing-library#example)
 
-- Integration - test our api's
+- Integration - test our APIs
   - [cypress](https://docs.cypress.io/guides/core-concepts/writing-and-organizing-tests)
 - E2E - to test the full stack completely on critical flows
   - [cypress](https://docs.cypress.io/guides/core-concepts/writing-and-organizing-tests)
-    - When selecting dom elements use `data-testid` instead of using a class or id.
+    - When selecting dom elements use `data-test-*` instead of using a class or id.
 
-### Testing Ui Business Logic
+### Testing UI Business Logic
 
-Separate the business logic from the view as much as possible. Create hooks, helpers & reducers to utilize this logic from the ui and test that code in isolation from it's ui.
+Separate the business logic from the view as much as possible. Create hooks, helpers & reducers to utilize this logic from the UI and test that code in isolation from its UI.

@@ -1,4 +1,4 @@
-While ShapeShift was a company, it had a in-depth Information Security Policy that all employees needed to follow, and robust Security Training program for all new hires.
+While ShapeShift was a company, it had an in-depth Information Security Policy that all employees needed to follow, and a robust Security Training program for all new hires.
 
 In this directory you'll find copies of this policy and training materials.
 

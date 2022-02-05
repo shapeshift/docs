@@ -87,7 +87,7 @@ Any valid, in-scope issues is covered under this program; however, what exactly 
 
 This list is not exhaustive, and we'll update it with more salient examples as we discover points of confusion; still, hopefully it's relatively self-explanatory.
 
-The question of whether an issue is valid usually boils down to one of threat model; if you'd like to discuss the threat model we use for the various in-scope projects, or get clarification about the status of a particular issue, feel free to drop into our [Discord](https://discord.gg/shapeshift) server and have a chat with our security team.
+Whether an issue is valid usually boils down to one of threat model; if you'd like to discuss the threat model we use for the various in-scope projects, or get clarification about the status of a particular issue, feel free to drop into our [Discord](https://discord.gg/shapeshift) server and have a chat with our security team.
 
 ## Rewards
 
