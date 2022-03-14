@@ -1,8 +1,10 @@
+---
+description: ShapeShift DAO (decentralized autonomous organization)
+---
+
 # Documentation
 
-ShapeShift DAO (decentralized autonomous organization)
-
-# Quick Links:
+## Quick Links:
 
  * ShapeShift: https://shapeshift.com
  * Forum: https://forum.shapeshift.com
