@@ -1,5 +1,7 @@
 # Table of Contents
 
+* [ShapeShift DAO](README.md)
+
 ## How to Contribute
 * [Bounties](bounties.md)
 * [Technical Integrators](integrators.md)
