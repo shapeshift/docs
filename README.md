@@ -1,6 +1,4 @@
-# docs
-
-Documentation
+# Documentation
 
 ShapeShift DAO (decentralized autonomous organization)
 
