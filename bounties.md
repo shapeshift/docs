@@ -33,6 +33,6 @@ Projects are welcome and encouraged to offer bounties to get their feature integ
 
 Find and apply to open bounties for big features [here](https://forum.shapeshift.com/tags/c/workstream-discussion/engineering/bounty).
 
-To offer a bounty to the community, see [Offer Bounties](https://docs.google.com/document/d/1WOJyyLmLDBNG5Vpja-caqGnRl4Htixy0csFki-nqMCI/edit).
+To offer a bounty to the community, see [Offer Bounties](offer.md).
 
 To request a bounty from the ShapeShift DAO Treasury, follow the [FOX governance process](https://forum.shapeshift.com/t/fox-governance-process/55) to make a proposal to the community.
