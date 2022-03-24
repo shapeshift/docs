@@ -1,4 +1,4 @@
-# Bounties
+# Complete Bounties
 
 We :blue_heart: open source. It is a critical part of our mission to build a community-owned, 
 free to use, interface into the defi universe. In order for us to realize this mission we need contributors like
