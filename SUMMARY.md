@@ -3,8 +3,9 @@
 * [ShapeShift DAO](README.md)
 
 ## How to Contribute
-* [Bounties](bounties.md)
+* [Complete Bounties](bounties.md)
 * [Add Features](integrators.md)
+* [Offer Bounties](offer.md)
 * [Bugs](bugs.md)
 
 ## General Information
