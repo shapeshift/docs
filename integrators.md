@@ -1,6 +1,6 @@
 # ShapeShift DAO Engineering Workstream: Technical Integration Process
 
-This document outlines the process for technical teams to add new features to ShapeShift. If you’re interested in offering or requesting a bounty for another technical team to add a feature to ShapeShift, see [How to offer a bounty to integrate your feature with app.shapeshift.com](https://forum.shapeshift.com/t/how-to-offer-a-bounty-to-integrate-your-feature-with-app-shapeshift-com/1249). To find and apply for open bounties for large features, visit the [forum](https://forum.shapeshift.com/tags/c/workstream-discussion/engineering/15/bounty).
+This document outlines the process for technical teams to add new features to ShapeShift. If you’re interested in offering or requesting a bounty for another technical team to add a feature to ShapeShift, see [Offer Bounties](offer.md). To find and apply for open bounties for large features, visit the [forum](https://forum.shapeshift.com/tags/c/workstream-discussion/engineering/15/bounty).
 
 #### Background:
 
