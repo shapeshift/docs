@@ -4,7 +4,7 @@
 
 ## How to Contribute
 * [Bounties](bounties.md)
-* [Technical Integrators](integrators.md)
+* [Add Features](integrators.md)
 * [Bugs](bugs.md)
 
 ## General Information
