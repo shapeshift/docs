@@ -7,7 +7,7 @@ community of open-source developers.
 
 The Shapeshift DAO has many flavors of bounties, but most of our engineering bounties are small 
 features, improvements or bug fixes that can be made in a single Pull Request by a contributor.
-These bounties are attached to issues in GithHub, and we use [Gitcoin](https://gitcoin.co/) as an 
+These bounties are attached to issues in GitHub, and we use [Gitcoin](https://gitcoin.co/) as an 
 incentivization layer. This mean's that contributors are rewarded in FOX, our governance token,
 and become owners of the very platform they are helping to build.
 
