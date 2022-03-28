@@ -13,6 +13,9 @@
 * [Release Process](release.md)
 * [Security](security.md)
 
+## Engineering
+* [Roles & Responsibilites](responsibilites.md)
+
 ## Open Source Project Repositories
 * [HDWallet](hdwallet.md)
 * [Unchained](unchained.md)
