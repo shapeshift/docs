@@ -14,7 +14,7 @@
 * [Security](security.md)
 
 ## Engineering
-* [Roles & Responsibilites](responsibilites.md)
+* [Roles & Responsibilities](responsibilities.md)
 
 ## Open Source Project Repositories
 * [HDWallet](hdwallet.md)
