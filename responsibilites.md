@@ -15,6 +15,15 @@
 * Spec out any groundwork PRs that should be completed internally
 * Consider what is required first to unblock bounty hunters - think about the project management critical path
 
+## Security considerations
+
+* Book a review with @MrNerdHair for any security considerations
+* Any changes to hdwallet should be *heavily* scrutinized
+* Any new dependencies across *any* part of the stack should be reviewed carefully
+* Any changes to the yarn.lock file in PRs must be thoroughly checked - this is the number one vector to inject malicious code
+* Any third party integrations must be reviewed in terms of data privacy - we do not leak addresses, IP address, browser fingerprinting
+* Any new CSP additions must be verified
+
 ## Technical breakdown
 
 * Use the bounty template for all tickets for consistency
