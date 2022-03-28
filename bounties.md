@@ -26,9 +26,11 @@ We are at the start of building out more resources for contributors. If you are 
 Additionally, feel free to attend Engineering Stand-up Every Weekday 17:00 UTC in [Discord](https://discord.gg/shapeshift) #Standup-AllAccess. You can introduce yourself, and we can often find someone to pair up with you if you need assistance for a few minutes after the meeting.
 
 #### Looking to integrate a large feature?
+
 Please check out [Add Features](integrators.md) for guidance on adding a large feature yourself.
  
 #### Bounty Instructions for Big Features
+
 Projects are welcome and encouraged to offer bounties to get their feature integrated by the large and growing community of ShapeShift developers. The product and engineering workstreams have processes and resources defined to provide guidance, support, and code and UX reviews to any individuals or teams who take on a bounty.
 
 Find and apply to open bounties for big features [here](https://forum.shapeshift.com/tags/c/workstream-discussion/engineering/bounty).
