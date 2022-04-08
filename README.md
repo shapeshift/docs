@@ -32,8 +32,9 @@ An open-source, multi-chain, self-custody crypto platform enabling billions to a
 
 # Social Links:
 
- * [Discord](https://discord.gg/shapeshift)
- * [Twitter](https://twitter.com/shapeshift)
+ * [Join our Discord](https://discord.gg/shapeshift)
+ * [Matrix (backup comms if Discord is down)](https://app.element.io/#/room/#ShapeshiftDAO:matrix.org)
+ * [Twitter](https://twitter.com/ShapeShift_io)
  * [Reddit](https://www.reddit.com/r/shapeshiftio/)
 
 # Examples of Recently Funded Engineering Bounties
