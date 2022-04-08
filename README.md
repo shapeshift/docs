@@ -32,7 +32,8 @@ An open-source, multi-chain, self-custody crypto platform enabling billions to a
 
 # Social Links:
 
- * https://discord.gg/shapeshift
+ * [Join our Discord](https://discord.gg/shapeshift)
+ * [Matrix - backup comms if Discord is down](https://app.element.io/#/room/#ShapeshiftDAO:matrix.org)
 
 # Currently funded Engineering efforts
 
