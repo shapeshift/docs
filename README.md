@@ -9,10 +9,10 @@ description: ShapeShift DAO (decentralized autonomous organization)
  * ShapeShift: https://shapeshift.com
  * Forum: https://forum.shapeshift.com
  * Boardroom: https://app.boardroom.info/shapeshift/overview
+ * Gitcoin: https://gitcoin.co/shapeshift/bounties
 
-## Mission
+## Vision
 
-Vision:
 We envision a borderless financial system built on open, decentralized protocols.
 
 ### What we are building
@@ -33,10 +33,17 @@ An open-source, multi-chain, self-custody crypto platform enabling billions to a
 # Social Links:
 
  * [Join our Discord](https://discord.gg/shapeshift)
- * [Matrix - backup comms if Discord is down](https://app.element.io/#/room/#ShapeshiftDAO:matrix.org)
+ * [Matrix (backup comms if Discord is down)](https://app.element.io/#/room/#ShapeshiftDAO:matrix.org)
+ * [Twitter](https://twitter.com/ShapeShift_io)
+ * [Reddit](https://www.reddit.com/r/shapeshiftio/)
 
-# Currently funded Engineering efforts
+# Examples of Recently Funded Engineering Bounties
 
-* Open source bounties [link](https://app.boardroom.info/shapeshift/proposal/cHJvcG9zYWw6c2hhcGVzaGlmdDpkZWZhdWx0OnFtbnV5Y3NyZXhmZXN5dG9mazZlbWRzYW1vcnVpMXBjdnU0aGpwN2V5ZHZuZ3o=)
-* Osmosis [link](https://app.boardroom.info/shapeshift/proposal/cHJvcG9zYWw6c2hhcGVzaGlmdDpkZWZhdWx0OnFtbnV5Y3NyZXhmZXN5dG9mazZlbWRzYW1vcnVpMXBjdnU0aGpwN2V5ZHZuZ3o=)
-* Globalization [link](https://app.boardroom.info/shapeshift/proposal/cHJvcG9zYWw6c2hhcGVzaGlmdDpkZWZhdWx0OnFteHBodmppa2p6aXF1ZnFwY2tvdTdmMnBoeWl4NWhhcXh1ZWJtYTZtY21uNXI=)
+* [Osmosis](https://app.boardroom.info/shapeshift/proposal/cHJvcG9zYWw6c2hhcGVzaGlmdDpkZWZhdWx0OnFtbnV5Y3NyZXhmZXN5dG9mazZlbWRzYW1vcnVpMXBjdnU0aGpwN2V5ZHZuZ3o=)
+* [Perp Protocol](https://forum.shapeshift.com/t/proposal-for-perpetual-protocol-integration-into-shapeshift/547)
+* [Yat](https://app.boardroom.info/shapeshift/proposal/cHJvcG9zYWw6c2hhcGVzaGlmdDpkZWZhdWx0OnFtdWx4NG55amR0aXh4YWpocDFhc3huc2V2dmI4ajVkbWltdnJwYjhrcnFjcWo=)
+* [FOXy](https://forum.shapeshift.com/t/bounty-120-000-300-000-fox-for-foxy-aka-sfox-by-mar-22nd/984)
+
+To find open bounties for smaller issues, see [Complete Bounties](bounties.md)
+
+To find open bounties for larger issues, see [Add Features](integrators.md)
