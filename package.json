@@ -1,0 +1,11 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "ShapeShift DAO (decentralized autonomous organization)",
+  "repository": "git@github.com:shapeshift/docs.git",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "markdownlint": "^0.25.1"
+  }
+}
