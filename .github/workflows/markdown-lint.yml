@@ -1,0 +1,27 @@
+name: Markdown lint
+
+on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - '*.md'
+      - .github/workflows/markdown-lint.yml
+
+
+jobs:
+  docs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v3.1.0
+        with:
+          node-version: "12"
+          cache: yarn
+
+      - name: Lint markdown files
+        run: |
+          npx markdownlint-cli '*.md'
