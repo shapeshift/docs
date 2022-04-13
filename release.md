@@ -15,51 +15,88 @@ The purpose of this document is to outline a process that standardizes a mechani
 
 ## Cadence
 
-Twice weekly, Tuesday and Thursdays @ 7PM UTC 
+Twice weekly, Tuesday and Thursdays @ 7PM UTC.
 
 ## Process
 
-1. 24-36 hours before the scheduled release review each of the following repositories for changes since the last release.
-    1. Web or its dependencies (lib, etc)
-    1. Foxfarm
-    1. Unchained
-2. For each repository with changes create a release branch from the current develop branch. This branch should be named in the following format with XX.YY representing the major and minor versions `releases/vXX.YY.ZZ`.
-3. Build the ephemeral environment for testing:
-    1. For the web codebase, this can be executed with this command: `web/scripts/release.sh release vXX.YY.ZZ`
-    For other codebases, run manually with these commands:
-    1. go to repo directory
-    1. `git fetch`
-    1. `git checkout develop`
-    1. `git reset --hard origin/develop`
-    1. `git checkout -b releases/vXX.YY.ZZ`
-    1. `git push origin releases/vXX.YY.ZZ`
+1. On the morning of the scheduled release, review the `web` repository for changes since the last release. Any member of the ShapeShift org can create a release branch, however a CODEOWNER is required to merge it.
+2. Ensure you have the [`gh` CLI tools installed](https://github.com/cli/cli#installation) to automatically create the PR.
+3. Run the following commands.
+    a. `git fetch --tags && git tag` - look for the most recently tagged version deployed to `main` (production).
+    b. Determine the new release number based on semantic versioning. For most releases this is a patch version. For new features use a minor version. E.g. `1.3.0` goes to `1.3.1` or `1.4.0` for a patch or minor version bump respectively.
+    c. Run the command `yarn create-release vX.Y.Z` with your new version.
 4. Get the URL of the ephemeral environment created (can be found in GitHub or on CloudFlare)
-5. Create a thread in the `#operations-publicchat` Discord channel with the following format. `YYYY-MM-DD repo-name releases/vXX.YY.ZZ`. For example `2022-01-18 web releases/v1.55.21`
-6. In the thread create a summary of the release including new customer facing functionality or bug fixes that can help product and operations to verify functionality, ping the following workstreams by mentioning them in the discord thread and identify each of the people filling the above Roles by discord handle. Also include the URL of the ephemeral environment found in the step above. Please also alert any engineer with code shipping to production in the channel.
-    1. Operations
-    1. Engineering
-    1. Product
-7. If blocking issues are discovered in the release branch, it should be reported in the thread created above.
-8. The person who has found the issue should add it to GitHub and comment on the Pull Request with a link to the issue. This will serve as the release checklist to inform the go / no-go decision on the final merge to production.
-9. The Release Manager will be responsible for coordinating any fixes. If they are able to resolve the issue themselves they may, or if not they will pull in the needed engineering resources to do so. Ultimately, they may also decide to push back the release until the next window if the issues are too severe or risky given the time frame.
-10. Blocking issue fixes should be merged directly into the `releases/vXX.YY.ZZ` branch.
-11. Once all blocking issues have been resolved and merged into the release branch, and Operations Lead and Product Lead have signed off, the Release Manager will merge the branch to main, without doing a squash merge.
-12. This needs to be done at the command line (directions to run via script also provided):
+5. Create a thread in the `#operations-publicchat` Discord channel with the following format.
 
-    # After testing, merge to main
+    Title: `release vX.Y.Z`. For example `release v1.2.3`
 
-    For the web codebase, you can use this script: web/scripts/release.sh main vXX.YY.ZZ
-    For other codebases, these are the commands:
+    Body:
+    ```
+    @W-Operations @W-Product @W-Engineering
+
+    release v1.2.3
+
+    Owners:
+
+    * Engineering - @ (the responsible person from each team)
+    * Operations - @
+    * Product - @
+
+    Release branch
+
+    * link to release branch on GitHub
+    * link to CloudFlare preview environment to be tested against
+
+    User facing changes
+
+    * paste an operations-friendly summary of user facing changes in the release
+
+    Possible regressions/risk
+
+    * a summary of specific regression testing required based on non-user facing changes in the branch
+    ```
+
+7. Operations should be testing the release branch with the default feature flags settings, i.e. what is going into production.
+8. If a new feature behind a flag is scheduled for release that day
+    a. The release manager should ping someone with access to Fleek and CloudFlare (`@Major Hayes` or `@0xdef1cafe`) and ensure the respective feature flags are added to all environments. Please note there are preview and production environments building off the `develop` and `main` branches respectively in both Fleek and CloudFlare - ensure the environment variables are added to both and correctly aligned.
+    b. Operations should test with that flag on.
+9. If blocking issues are discovered in the release branch, it should be reported in the thread created above.
+10. The person who has found the issue should add it to GitHub and comment on the Pull Request with a link to the issue. This will serve as the release checklist to inform the go / no-go decision on the final merge to production.
+11. The Release Manager will be responsible for coordinating any fixes. If they are able to resolve the issue themselves they may, or if not they will pull in the needed engineering resources to do so. Ultimately, they may also decide to push back the release until the next window if the issues are too severe or risky given the time frame.
+12. Blocking issue fixes should be merged directly into the `releases/vX.Y.Z` branch.
+13. Once all blocking issues have been resolved and merged into the release branch, and Operations Lead and Product Lead have signed off, the Release Manager should ping a CODEOWNER to merge the release branch into `main`.
+14. This needs to be done at the command line (directions to run via script also provided):
+
+    ## After testing, merge to main
+
+    ### `web` repo
+
+    The CODEOWNER can be sure that the code in the release branch does not require reviewing, as all PRs into `develop` or directly into the release branch have had a CODEOWNER approval, and the release branch has been functionally tested by the operations team. This is merely an administrative task, required to be done by a CODEOWNER due to branch protection on `develop` and `main`.
+
+    1. `yarn merge-release v1.2.3` - this will merge the release into main, push it to origin, close the release PR, and leave you on a detached head.
+    2. `git checkout main`
+    3. `git pull` - ensuring we have the latest upstream of `main`.
+    4. `git checkout develop`
+    5. `git pull` - ensuring we have the latest upstream of `develop`.
+    6. `git merge main` - back merge `main` into `develop`.
+        `git log --graph --decorate --all` - sanity check to ensure the merge looks correct.
+    7. `git push` - push directly to develop.
+
+    ### Other repos
+
     1. `git checkout main`
-    2. `git reset --hard origin/main`
-    3. `git merge --no-ff releases/vXX.YY.ZZ`
-    4. `git tag -a -m "vXX.YY.ZZ" vXX.YY.ZZ`
-    5. `git push origin main --tags`
+    2. `git merge --no-ff releases/vXX.YY.ZZ`
+    3. `git tag -a -m "vXX.YY.ZZ" vXX.YY.ZZ`
+    4. `git push origin main --tags`
 
-    # Delete the release branch
+    ## Delete the release branch
 
-    For web codebase, this is also executed with the above command (the After testing command)
-    For other codebases, these are the commands:
+    ### `web` repo
+
+    This is also executed with the release script - you do not have to manually delete the branch.
+
+    ### Other repos
+
     1. `git branch -d releases/vXX.YY.ZZ`
     2. `git push origin --delete releases/vXX.YY.ZZ`
     3. (script will soon be added to do these steps)
@@ -72,12 +109,12 @@ Twice weekly, Tuesday and Thursdays @ 7PM UTC
 
 1. Hotfixes can be made out of band from our scheduled releases as dictated by the severity of the issue being mitigated.
 1. We still recommend following steps 3 - 9 above in these cases. With a hotfix branch being cut from main and then merged back into main and develop once completed.
-	
+
 ## Feature Releases in Web:
 
-Shapeshift DAO will have four distinct environments that are a part of the testing and release flow: 1) development 2) release branch 3) alpha and 4) production. LaunchDarkly, pending a security review, will be used to control feature flags in all sub-production environments.
+Shapeshift DAO will have four distinct environments that are a part of the testing and release flow: 1) development 2) release branch 3) alpha and 4) production. We use a hand rolled feature flagging service with no external dependencies. It can be accessed in the web app by pressing `Option + Shift + F` on macOS or `Alt + Shift + F` on Windows/Linux.
 
-1. **Development** - This deployment will track the develop branch of the web repository. Feature flags can be controlled via LaunchDarkly.
-1. **Release** - This deployment will track the latest release branch that has been created by the Release Manager. Feature flags can be controlled via LaunchDarkly for Alpha testing but once moved to production, LaunchDarkly will no longer be able to be used. 
-1. **Alpha** - The environment served at `alpha.shapeshift.com`. This build will be identical to the production build and deployed alongside with production. The only difference between the two will be the ability to use LaunchDarkly for feature flagging.
-1. **Production** - The environment served at `app.shapeshift.com`. Identical to the Alpha build, but with no ability to control feature flags via LaunchDarkly.
+1. **Development** - This deployment will track the develop branch of the web repository. Feature flags can be controlled via the flags menu.
+1. **Release** - This deployment will track the latest release branch that has been created by the Release Manager. Feature flags can be controlled via the flags menu.
+1. **Alpha** - Does not currently exist, but will be served in the future at `alpha.shapeshift.com`. This build will be identical to the production build and deployed alongside with production, with potentially some unstable flags enabled, and opt in user tracking for product metrics and analysis via Pendo.
+1. **Production** - The environment served at `app.shapeshift.com`. Identical to the Alpha build, but with only stable flags enabled.
