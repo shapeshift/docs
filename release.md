@@ -27,7 +27,7 @@ Twice weekly, Tuesday and Thursdays @ 7PM UTC.
     b. Determine the new release number based on semantic versioning. For most releases this is a patch version. For new features use a minor version. E.g. `1.3.0` goes to `1.3.1` or `1.4.0` for a patch or minor version bump respectively.
     c. Run the command `yarn create-release vX.Y.Z` with your new version.
 4. Get the URL of the ephemeral environment created (can be found in GitHub or on CloudFlare)
-5. Create a thread in the `#operations-publicchat` Discord channel with the following format.
+5. Create a thread in the `#operations-publicchat` Discord channel with the following format. Use the `+` button on the left of the text input box to create a thread before pasting this template.
 
     Title: `release vX.Y.Z`. For example `release v1.2.3`
 
