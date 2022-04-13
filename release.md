@@ -77,11 +77,14 @@ Twice weekly, Tuesday and Thursdays @ 7PM UTC.
     1. `yarn merge-release v1.2.3` - this will merge the release into main, push it to origin, close the release PR, and leave you on a detached head.
     2. `git checkout main`
     3. `git pull` - ensuring we have the latest upstream of `main`.
+        `git log --graph --decorate --all` - sanity check to ensure the merge looks correct.
     4. `git checkout develop`
     5. `git pull` - ensuring we have the latest upstream of `develop`.
     6. `git merge main` - back merge `main` into `develop`.
         `git log --graph --decorate --all` - sanity check to ensure the merge looks correct.
     7. `git push` - push directly to develop.
+
+    If something is wrong with the merges and you haven't pushed, reset your repo locally. If you have pushed, coordinate with another CODEOWNER to rectify the upstream repo state before force pushing anything. If we need to roll back a production release, this can be done in CloudFlare GUI.
 
     ### Other repos
 
