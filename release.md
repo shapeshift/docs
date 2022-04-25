@@ -33,7 +33,7 @@ Twice weekly, Tuesday and Thursdays @ 7PM UTC.
 
     Body:
     ```
-    @W-Operations @W-Product @W-Engineering
+    @W-Operations @W-Products @W-Engineering
 
     release v1.2.3
 
