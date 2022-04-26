@@ -35,7 +35,7 @@
 
 ## Bounties
 
-* Add the `needs bounty` label for @0xean to post bounties - don't use the `bounty` label, 0xean will do this when it's posted
+* Add the `needs bounty` label for @purelycrickets to post bounties - don't use the `bounty` label, purelycrickets will do this when it's posted
 * Bounties can be reserved for community contributors
 * Add a required by date (if possible)
 * You can tip bounty hunters for work above and beyond (this is very common)
