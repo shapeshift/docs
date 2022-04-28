@@ -24,7 +24,7 @@ Twice weekly, Tuesday and Thursdays @ 7PM UTC.
 3. Once the github cli is installed on your machine, run `gh auth login` to login to your github account through the cli.
 4. Run the following commands.
     a. `git fetch --tags && git tag` - look for the most recently tagged version deployed to `main` (production).
-    b. Determine the new release number based on semantic versioning. For most releases this is a patch version. For new features use a minor version. E.g. `1.3.0` goes to `1.3.1` or `1.4.0` for a patch or minor version bump respectively.
+    b. Determine the new release number based on semantic versioning. For most releases this is a patch version. For new features use a minor version. E.g. `1.3.0` goes to `1.3.1` or `1.4.0` for a patch or minor version bump respectively. To determine the semantic version type, you can preview the list of commits that will be cut for the release by running `git fetch origin && git log --oneline --first-parent origin/main..origin/develop`
     c. Run the command `yarn create-release vX.Y.Z` with your new version.
 5. The previous step will automatically open a pull request in the web repository with your release branch. Wait for CI to finish the Cloudflare Pages check. Get the URL of the ephemeral environment created by finding the newly created pull request in the web repo, clicking the `Details` link at the right of the Cloudflare Pages CI check, and copying the preview URL listed in the deployment summary.
 6. Create a thread in the `#operations-publicchat` Discord channel with the following format. Use the `+` button on the left of the text input box to create a thread before pasting this template.
