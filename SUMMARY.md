@@ -18,7 +18,7 @@
 ## Release Process
 
 * [Web](release.md)
-* [Unchained](https://shapeshiftdao.gitbook.io/unchained/miscellaneous/volumes)
+* [Unchained](https://shapeshiftdao.gitbook.io/unchained/miscellaneous/releaseprocess)
 
 ## Engineering
 * [Roles & Responsibilities](responsibilities.md)
