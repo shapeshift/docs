@@ -13,8 +13,12 @@
 
 * [Platform Overview](overview.md)
 * [Branching](branching.md)
-* [Release Process](release.md)
 * [Security](security.md)
+
+## Release Process
+
+* [Web](release.md)
+* [Unchained](https://raw.githubusercontent.com/shapeshift/unchained/main/docs/releaseProcess.md)
 
 ## Engineering
 * [Roles & Responsibilities](responsibilities.md)
