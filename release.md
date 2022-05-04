@@ -22,12 +22,13 @@ Twice weekly, Tuesday and Thursdays @ 7PM UTC.
 1. On the morning of the scheduled release, review the `web` repository for changes since the last release. Any member of the ShapeShift org can create a release branch, however a CODEOWNER is required to merge it.
 2. Ensure you have the [`gh` CLI tools installed](https://github.com/cli/cli#installation) to automatically create the PR.
 3. Once the github cli is installed on your machine, run `gh auth login` to login to your github account through the cli. You can confirm you are logged in by running `gh auth status`.
-4. Run the following commands.
-    a. `git fetch --tags && git tag` - look for the most recently tagged version deployed to `main` (production).
-    b. Determine the new release number based on semantic versioning. For most releases this is a patch version. For new features use a minor version. E.g. `1.3.0` goes to `1.3.1` or `1.4.0` for a patch or minor version bump respectively. To determine the semantic version type, you can preview the list of commits that will be cut for the release by running `git fetch origin && git log --oneline --first-parent origin/main..origin/develop`
-    c. Run the command `yarn create-release vX.Y.Z` with your new version.
-5. The previous step will automatically open a pull request in the web repository with your release branch. Wait for CI to finish the Cloudflare Pages check. Get the URL of the ephemeral environment created by finding the newly created pull request in the web repo, clicking the `Details` link at the right of the Cloudflare Pages CI check, and copying the preview URL listed in the deployment summary.
-6. Create a thread in the `#operations-publicchat` Discord channel with the following format. Use the `+` button on the left of the text input box to create a thread before pasting this template.
+4. Determine the new release number based on semantic versioning, using the following command
+    1. Determine the previous release number using this command `git fetch --tags && git tag --sort v:refname | tail -n 1`.
+    2. Determine the new release number by previewing the list of commits that will be cut for the release by running `git fetch origin && git log --oneline --first-parent origin/main..origin/develop`
+    3. If the merge commits to `develop` include a `feat: xxx` commit, use a minor version, e.g. `1.3.0 -> 1.4.0`. If the commits only include `fix` or `chore` commits, use a patch version e.g. `1.1.0 -> 1.1.1`.
+5. Run the command `yarn create-release vX.Y.Z` with your newly determined version number.
+6. The previous step will automatically open a pull request in the web repository with your release branch. Wait for CI to finish the Cloudflare Pages check. Get the URL of the ephemeral environment created by finding the newly created pull request in the web repo, clicking the `Details` link at the right of the Cloudflare Pages CI check, and copying the preview URL listed in the deployment summary.
+7. Create a thread in the `#operations-publicchat` Discord channel with the following format. Use the `+` button on the left of the text input box to create a thread before pasting this template.
 
     Title: `release vX.Y.Z`. For example `release v1.2.3`
 
