@@ -34,7 +34,7 @@ Twice weekly, Tuesday and Thursdays @ 7PM UTC.
 
     Body:
     ```
-    @W-Operations @W-Products @W-Engineering
+    @W-Operations @W-Products @W-Engineering @W-Marketing
 
     release vX.Y.Z
 
