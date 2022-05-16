@@ -2,7 +2,7 @@
 There are many ways that developers can get going in the ShapeShift DAO ecosystem and with our codebase.
 
 ## Opportunities to Contribute
-- Join our standups at 10AM MST Mon-Fri in the `StandUp-AllAccess` channel on our [Discord](https://discord.gg/shapeshift) server
+- Join our standups at 1:15PM MST Monday through Thursday in the `StandUp-AllAccess` channel on our [Discord](https://discord.gg/shapeshift) server
      - You first need to pass the Captcha-bot, to make sure you are a real person 
      - Once you are on the server and see a bunch of channels, go to the `#role-selector` channel, and click on the icon for the "Engineering" role
      - Then you will see the `#StandUp-AllAccess` channel, `#engineering-public` channel and many others
