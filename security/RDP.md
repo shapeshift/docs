@@ -42,14 +42,14 @@ Not everything with the word "ShapeShift" on the tin is something the ShapeShift
   -  [shapeshift/unchained](https://github.com/shapeshift/unchained)
   -  [shapeshift/hdwallet](https://github.com/shapeshift/hdwallet)
   -  [keepkey/keepkey-firmware](https://github.com/keepkey/keepkey-firmware)
-- Any software hosted under the [ShapeShift](https://github.com/shapeshift/) or [KeepKey](https://github.com/keepkey/) GitHub Orgs, or the [@shapeshiftoss](https://www.npmjs.com/org/shapeshiftoss) NPM org, *if it's a dependency of something else in-scope*
+- Any software hosted under the [ShapeShift](https://github.com/shapeshift/) GitHub Org or the [@shapeshiftoss](https://www.npmjs.com/org/shapeshiftoss) NPM org, *if it's a dependency of something else in-scope*
   - Examples of dependencies that are in-scope:
     -  [shapeshift/fiojs](https://github.com/shapeshift/fiojs)
-    -  [keepkey/python-keepkey](https://github.com/keepkey/python-keepkey)
-    -  [keepkey/device-protocol](https://github.com/keepkey/device-protocol)
   - Examples of things that are hosted in these locations, but aren't dependencies of something in-scope:
     -  [shapeshift/cluster-launcher](https://github.com/shapeshift/cluster-launcher)
     -  [shapeshift/foxfarm](https://github.com/shapeshift/foxfarm)
+    -  [keepkey/python-keepkey](https://github.com/keepkey/python-keepkey)
+    -  [keepkey/device-protocol](https://github.com/keepkey/device-protocol)
 
 The DAO's RDP covers code, not specific running instances of that code, but it's often helpful to think in those terms when planning your targets. Here's a handy (though not exhaustive!) cheat-sheet:
 
@@ -62,10 +62,10 @@ The DAO's RDP covers code, not specific running instances of that code, but it's
   -  [shapeshift.com](https://shapeshift.com) (hosted by WebFlow, a third-party)
   -  [shapeshift.zendesk.com](https://shapeshift.zendesk.com) (hosted by ZenDesk, a third-party)
   -  [shapeshift-io.hellonext.co](https://shapeshift-io.hellonext.co/) (hosted by HelloNext, a third-party)
-  -  [beta.shapeshift.com](https://beta.shapeshift.com) (a legacy system maintained by the ShapeShift Foundation, not the ShapeShift DAO)
-  -  [auth.shapeshift.com](https://auth.shapeshift.com) (a legacy system maintained by the ShapeShift Foundation, not the ShapeShift DAO)
-  -  [portal.shapeshift.io](https://portal.shapeshift.io) (a legacy system maintained by the ShapeShift Foundation, not the ShapeShift DAO)
-  -  The ShapeShift [mobile app](https://apps.apple.com/us/app/shapeshift-buy-trade-crypto/id996569075) (a legacy system maintained by the ShapeShift Foundation, not the ShapeShift DAO)
+  -  [beta.shapeshift.com](https://beta.shapeshift.com) (a legacy system maintained by the Fox Foundation, not the ShapeShift DAO)
+  -  [auth.shapeshift.com](https://auth.shapeshift.com) (a legacy system maintained by the Fox Foundation, not the ShapeShift DAO)
+  -  [portal.shapeshift.io](https://portal.shapeshift.io) (a legacy system maintained by the Fox Foundation, not the ShapeShift DAO)
+  -  The ShapeShift [mobile app](https://apps.apple.com/us/app/shapeshift-buy-trade-crypto/id996569075) (a legacy system maintained by the Fox Foundation, not the ShapeShift DAO)
   -  [portis.io](https://portis.io) (Portis is now a separate company)
   -  [coincap.io](https://coincap.io) (CoinCap is now a separate company)
 
@@ -95,12 +95,3 @@ We offer two types of reward for your reports under this program: a Goodwill Bou
 
 The Bounty Committee's recommendations are made entirely at its own discretion, and the payment of them is made entirely at the discretion of the DAO itself. Not every issue will receive an Additional Bounty award; low-impact issues may receive only the Goodwill Bounty. However, this process means that there is no fixed budget or upper limit for bounty awards; each award is made via a formal DAO governance proposal, which can draw on all the resources of the DAO. (Among other benefits, this process means that RDP bounties are not subject to the vagaries of the budget cycle; for example, if you report a high-impact vulnerability, your award will not be reduced because someone else reported something else serious before you and drained the budget.)
 
-### Hall of Fame NFT
-
-Upon your report of a valid, in-scope issue, you will be issued a ShapeShift Hall of Fame NFT. Your Hall of Fame NFT represents both our recognition of your contribution and your interest in any associated Additional Bounty. It's our hope that these NFTs will be of value to you as a researcher, providing assured public recognition and an overall smoother bounty-hunting experience.
-
-For the duration of the confidentiality period, your NFT will be locked. It will not be tradable, and will be subject to revocation if your report is determined not to be of a valid issue or if the issue you've reported is disclosed publicly. However, once the confidentiality period expires, your NFT will be unlocked and updated with a description of the issue you reported.
-
-When your NFT is unlocked you will receive your Goodwill Bounty, and you may also update the NFT to contain a name and hyperlink of your choice. (These submissions must be professional, and are subject to content moderation at the sole discretion of the DAO and its Security Workstream.) This will provide public, verifiable recognition of your contribution, which we hope will be of value in your professional career.
-
-We take care when evaluating reports for award of an Additional Bounty; the process will take at least two weeks after your issue is resolved, and could take as long as several months. We recognize, though, that you may not want to wait, and our policy of paying Additional Bounties to NFT holders means that you don't have to; instead, you can sell your NFT. Hall of Fame NFT buyers purchase the rights to any Additional Bounty which may be forthcoming, but they also purchase the risk associated with the wait and the uncertainty associated with the award process. A specific goal of the RDP is for Hall of Fame NFTs to attract buyers who are not simply collectors or speculators, but who have both experience with our process and a good understanding of the impact of security issues and can give you a fair price, allowing us to retain our high process quality standards for making bounty awards without compromising your options as a researcher.
