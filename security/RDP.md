@@ -41,7 +41,6 @@ Not everything with the word "ShapeShift" on the tin is something the ShapeShift
   -  [shapeshift/lib](https://github.com/shapeshift/lib)
   -  [shapeshift/unchained](https://github.com/shapeshift/unchained)
   -  [shapeshift/hdwallet](https://github.com/shapeshift/hdwallet)
-  -  [keepkey/keepkey-firmware](https://github.com/keepkey/keepkey-firmware)
 - Any software hosted under the [ShapeShift](https://github.com/shapeshift/) GitHub Org or the [@shapeshiftoss](https://www.npmjs.com/org/shapeshiftoss) NPM org, *if it's a dependency of something else in-scope*
   - Examples of dependencies that are in-scope:
     -  [shapeshift/fiojs](https://github.com/shapeshift/fiojs)
@@ -57,7 +56,6 @@ The DAO's RDP covers code, not specific running instances of that code, but it's
   -  [app.shapeshift.com](https://app.shapeshift.com) (runs [shapeshift/web](https://github.com/shapeshift/web))
   -  [api.bitcoin.shapeshift.com](https://api.bitcoin.shapeshift.com) (runs [shapeshift/unchained](https://github.com/shapeshift/unchained))
   -  [api.ethereum.shapeshift.com](https://api.ethereum.shapeshift.com) (runs [shapeshift/unchained](https://github.com/shapeshift/unchained))
-  - Physical (or emulated!) KeepKey devices
 - Out-of-scope
   -  [shapeshift.com](https://shapeshift.com) (hosted by WebFlow, a third-party)
   -  [shapeshift.zendesk.com](https://shapeshift.zendesk.com) (hosted by ZenDesk, a third-party)
@@ -68,6 +66,7 @@ The DAO's RDP covers code, not specific running instances of that code, but it's
   -  The ShapeShift [mobile app](https://apps.apple.com/us/app/shapeshift-buy-trade-crypto/id996569075) (a legacy system maintained by the Fox Foundation, not the ShapeShift DAO)
   -  [portis.io](https://portis.io) (Portis is now a separate company)
   -  [coincap.io](https://coincap.io) (CoinCap is now a separate company)
+  -  Physical (or emulated!) KeepKey devices (KeepKey is now a separate company)
 
 If you find an issue with something that isn't in scope, please still make a report; we'll do our best to make sure they're routed to the right people and handled appropriately. However, we can't offer any rewards for reports about out-of-scope systems, and we can't make any guarantees about the resolution of issues in systems the DAO doesn't maintain.
 
