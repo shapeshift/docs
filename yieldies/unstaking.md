@@ -17,7 +17,7 @@ This fee is distributed back to the liquidity providers who have supplied the un
 
 - **Instant un-staking through a Curve pool** - Currently all Yieldies will leverage Tokemak for yield generation. The means that the underlying assets are deposited
 to Tokemak and in turn the Staking contract is issued tAssets.  If a Curve pool for these tAssets exists, the Staking contract can facilitate instant un-staking
-by swapping the tAsset for the underlying asset at the current market rate, returning the underlying asset to the user.  In this case, no fee is charged by Yieldies, and instead the swap is subject to fees and slippage on the Curve pool.
+by swapping the tAsset for the underlying asset at the current market rate, returning the underlying asset to the user. In this case, no fee is charged by Yieldies, and instead the swap is subject to fees and slippage on the Curve pool.
 
 - **Trading on ElasticSwap** - Each Yieldy may additionally have a liquid secondary market on [ElasticSwap](https://elasticswap.org/) in which users may be able to swap
 their Yieldy for other assets. 
