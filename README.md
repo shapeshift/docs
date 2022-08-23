@@ -9,7 +9,7 @@ description: ShapeShift DAO (decentralized autonomous organization)
  * ShapeShift: https://shapeshift.com
  * Forum: https://forum.shapeshift.com
  * Boardroom: https://app.boardroom.info/shapeshift/overview
- * Gitcoin: https://gitcoin.co/shapeshift/bounties
+ * DeWork Bounties: https://app.dework.xyz/shapeshift-dao
 
 ## Vision
 
