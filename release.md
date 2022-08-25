@@ -18,7 +18,11 @@ Monday-Thursday @ ~6PM UTC.
 ## Reference
 
 * https://release.shapeshift.com - the release environment to test against
-* https://github.com/shapeshift/web/commits/release - click the yellow dot or green tick on the topmost commit row. Once the `fleek/build - Preview ready` check has a green tick the release is ready to test. Follow the same process when any fixes are merged to the release branch to know when the fix is ready to test.
+* Click the yellow dot or green tick on the topmost commit row.
+  * https://github.com/shapeshift/web/commits/release
+    * Once the `fleek/build - Preview ready` check has a green tick the release is ready to test. Follow the same process when any fixes are merged to the release branch to know when the fix is ready to test.
+  * https://github.com/shapeshift/web/commits/main
+    * Once the `fleek/build - Preview ready` check has a green tick the release is live in production.
 
 ## Process
 
@@ -39,7 +43,8 @@ Monday-Thursday @ ~6PM UTC.
     Release branch
 
     * https://release.shapeshift.com
-    * https://github.com/shapeshift/web/commits/release
+    * https://github.com/shapeshift/web/commits/release - to check on status of release branch.
+    * https://github.com/shapeshift/web/commits/main - to check on status of production deployment.
 
     User facing changes
 
