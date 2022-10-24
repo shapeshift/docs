@@ -1,41 +1,45 @@
-# docs
+---
+description: About ShapeShift, the organization and it's current platform
+cover: .gitbook/assets/youtube_coverphoto.png
+coverY: 0
+---
 
-Documentation
+# 🥳 FAQ's
 
-ShapeShift DAO (decentralized autonomous organization)
+## A source of truth for building understanding
 
-# Quick Links:
+Thank you for using ShapeShift products, the following articles are provided to assist and share the basic building blocks of knowledge about our solutions, features and organization. Articles are added and updated as the ShapeShift organization and platform are modified.&#x20;
 
- * ShapeShift: https://shapeshift.com
- * Forum: https://forum.shapeshift.com
- * Boardroom: https://app.boardroom.info/shapeshift/overview
+### Below you can find sections providing relevant information to common ShapeShift topics.
 
-## Mission
+We have sorted topics into similar sections, the format that this looks to provide is a quick summary of the topic and how it relates to our organization or platform. Then links to additional relevant materials that can provide resource for individuals interested in DYOR (Doing Your Own Research)  &#x20;
 
-Vision:
-We envision a borderless financial system built on open, decentralized protocols.
 
-### What we are building
 
-An open-source, multi-chain, self-custody crypto platform enabling billions to achieve financial sovereignty.
+### Topic Section Links
 
-## Values:
-*Trustworthy* - We are upfront and transparent. We are fair and accurate in our dealings with one another and with our customers. We earn trust with time and execution, rather than by expecting it by default.
+{% content-ref url="faq/about-shapeshift/" %}
+[about-shapeshift](faq/about-shapeshift/)
+{% endcontent-ref %}
 
-*Collaborative* - We are talented individuals aligning behind unified strategies to build greatness. We support, encourage, and challenge each other. We leverage the force multiplier of teamwork.
+{% content-ref url="faq/app.shapeshift/" %}
+[app.shapeshift](faq/app.shapeshift/)
+{% endcontent-ref %}
 
-*Adaptive* - We are a decentralized startup in an experimental new industry straight out of a sci-fi novel. We embrace volatility. We observe, react, endure, and move through every challenge and obstacle brought upon us.
+{% content-ref url="faq/protocols/" %}
+[protocols](faq/protocols/)
+{% endcontent-ref %}
 
-*Spirited* - We are playful and passionate. We engage sincerely with one another and with the world. We pour art, character, and conviction into our products and believe crypto, like speech, is best when borderless.
+{% content-ref url="faq/wallets/" %}
+[wallets](faq/wallets/)
+{% endcontent-ref %}
 
-*Pioneering* - We innovate with digital tools, along the frontier of distributed finance. Casting off from the paternalistic comfort of a permissioned world, we build in the wilds, readying sanctuary from the dark clouds of fiat’s twilight hour. We expect maturity, grit, and stoic resolve.
+{% content-ref url="faq/mobile.md" %}
+[mobile.md](faq/mobile.md)
+{% endcontent-ref %}
 
-# Social Links:
+{% content-ref url="faq/legacy/" %}
+[legacy](faq/legacy/)
+{% endcontent-ref %}
 
- * https://discord.gg/shapeshift
-
-# Currently funded Engineering efforts
-
-* Open source bounties [link](https://app.boardroom.info/shapeshift/proposal/cHJvcG9zYWw6c2hhcGVzaGlmdDpkZWZhdWx0OnFtbnV5Y3NyZXhmZXN5dG9mazZlbWRzYW1vcnVpMXBjdnU0aGpwN2V5ZHZuZ3o=)
-* Osmosis [link](https://app.boardroom.info/shapeshift/proposal/cHJvcG9zYWw6c2hhcGVzaGlmdDpkZWZhdWx0OnFtbnV5Y3NyZXhmZXN5dG9mazZlbWRzYW1vcnVpMXBjdnU0aGpwN2V5ZHZuZ3o=)
-* Globalization [link](https://app.boardroom.info/shapeshift/proposal/cHJvcG9zYWw6c2hhcGVzaGlmdDpkZWZhdWx0OnFteHBodmppa2p6aXF1ZnFwY2tvdTdmMnBoeWl4NWhhcXh1ZWJtYTZtY21uNXI=)
+###
