@@ -22,7 +22,7 @@ Example: A large order to buy BTC will drive the price of BTC up and conversely 
 
 There are a few steps that incur fees along the process of providing liquidity and staking your FOX. Please read the list below:&#x20;
 
-1. A fee is required to the network to "Approve" smart contract interaction with your wallet and a DEX (see this article to learn more: https://shapeshift.zendesk.com/hc/en-us/articles/360018501700-Why-Do-I-Need-To-Approve-Tokens-)&#x20;
+1. A fee is required to the network to "Approve" smart contract interaction with your wallet and a DEX (see this article to [learn more:](<https://shapeshift.zendesk.com/hc/en-us/articles/360018501700-Why-Do-I-Need-To-Approve-Tokens>-)
 2. A fee is required to send your FOX/ETH to the liquidity pool.
 3. A fee is required to stake your FOX.
 4. A fee is required to unstake your FOX and remove liquidity from the pool.&#x20;
@@ -39,4 +39,3 @@ FOXy is a staking rewards system that allows FOX token holders the ability to st
 ## Staking Cosmos (ATOM)
 
 ShapeShift offers full native wallet support for all Cosmos functionality. You can send, receive, and stake you ATOM on app.shapeshift.com
-
