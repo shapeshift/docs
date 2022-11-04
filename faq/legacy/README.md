@@ -1,6 +1,0 @@
----
-description: Before DAO
----
-
-# 👻 Legacy
-
