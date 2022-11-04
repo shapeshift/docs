@@ -42,4 +42,3 @@
     * [♨ KeepKey Privacy Policy](faq/wallets/keepkey/keepkey-privacy-policy.md)
     * [📜 KeepKey Terms of Service](faq/wallets/keepkey/keepkey-terms-of-service.md)
 * [📱 Mobile](faq/mobile.md)
-

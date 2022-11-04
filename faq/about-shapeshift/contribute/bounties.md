@@ -1,31 +1,26 @@
 # 💰 Bounties
 
-The DAO has different work streams that offer bounties.
-
-
+The DAO values and understands that talent is wide spread, and having the flexibility to choose ones determined task can create the ability to estabolish trust and value within a golbal community. Offering the ability to tap into this globalized talent pool thru an organic and growing bounty proccess presents opportunity and capability for resource to be utilized within the needs of both the community and the contributors willing to share determined ability to build together.
+The DAO has different workstreams that can and frequently offer bounty work when available. We are continuing to build our resorces and working on common documentation that will further detail work expectations as well as effective process flow.
 
 For engineers, feel free to join **Dework** here: [https://app.dework.xyz/shapeshift-dao](https://app.dework.xyz/shapeshift-dao)&#x20;
 
-or our [**Discord** ](https://discord.gg/shapeshift)channel here: [https://discord.com/channels/554694662431178782/892882353200963617](https://discord.com/channels/554694662431178782/892882353200963617)
+or our [**Discord**](https://discord.gg/shapeshift)channel here: [https://discord.com/channels/554694662431178782/892882353200963617](https://discord.com/channels/554694662431178782/892882353200963617)
 
+To check on a specific workstream bounty board, check these links below:
 
-
-To check on a specific work stream bounty board, check these links below:
-
-### Engineering Bounties:
+## Engineering Bounties
 
 &#x20;[https://app.dework.xyz/shapeshift-dao/shapeshift-bounties](https://app.dework.xyz/shapeshift-dao/shapeshift-bounties)
 
-### Products Bounties:
+## Products Bounties
 
 &#x20;[https://app.dework.xyz/shapeshift-dao/product-bounties](https://app.dework.xyz/shapeshift-dao/product-bounties)
 
-### KeepKey Bounties:&#x20;
+## KeepKey Bounties
 
 [https://app.dework.xyz/shapeshift-dao/keepkey-bounties/view/board-l5090jno](https://app.dework.xyz/shapeshift-dao/keepkey-bounties/view/board-l5090jno)
 
-
-
-### Growth and Marketing opportunities:
+## Growth and Marketing opportunities
 
 **Share**: [https://joinshare.xyz/community/1](https://joinshare.xyz/community/1)
