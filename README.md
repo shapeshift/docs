@@ -35,5 +35,3 @@ We have sorted topics into similar sections, the format that this looks to provi
 {% content-ref url="faq/mobile.md" %}
 [mobile.md](faq/mobile.md)
 {% endcontent-ref %}
-
-###
