@@ -1,20 +1,20 @@
 # ♨ KeepKey Privacy Policy
 
-**Online Privacy Notice**
+## Online Privacy Notice
 
 Data protection and security are important to Key Hodlers, LLC (“KeepKey”; “we”), as is your trust in our company and services. KeepKey is committed to processing your personal data responsibly and in compliance with legal requirements.
 
-This Online Privacy Notice describes how we collect and process your personal data when you use our website https://shapeshift.io/keepkey/ (including any sub-sites and related extensions thereof; “the website”).
+This Online Privacy Notice describes how we collect and process your personal data when you use our website <https://shapeshift.io/keepkey/> (including any sub-sites and related extensions thereof; “the website”).
 
-**Personal data we collect and process in order to make the website available**
+## Personal data we collect and process in order to make the website available
 
 You can visit the website and obtain information about our services without telling us who you are. As with any connection with a webserver, however, the server on which we host the website automatically logs and temporarily stores certain technical data.
 
 Technical data that is stored includes the IP address and operating system of your device, the data and time of access, or the type of browser you use to access the website. This is required for technical reasons to make the website available to you. To the extent we, thereby, process personal data, we do so based on our legitimate interest to bring you the best possible user experience and to safeguard the security and stability of our systems.
 
-Our website uses fonts by Google LLC (“Google”) (“Google Fonts”). To integrate Google Fonts into the website, your browser establishes a connection to the Google server. In doing so, the IP address of your device is transmitted to Google. Google logs records of font queries and protects this data from unauthorized access. Google analyzes aggregated data to optimize Google Fonts and identify which websites use Google Fonts. Further information on Google Fonts can be found here: https://fonts.google.com. Further information on how Google handles personal data can be found here: [https://policies.google.com/privacy?hl=en](https://policies.google.com/privacy?hl=en).
+Our website uses fonts by Google LLC (“Google”) (“Google Fonts”). To integrate Google Fonts into the website, your browser establishes a connection to the Google server. In doing so, the IP address of your device is transmitted to Google. Google logs records of font queries and protects this data from unauthorized access. Google analyzes aggregated data to optimize Google Fonts and identify which websites use Google Fonts. Further information on Google Fonts can be found here: <https://fonts.google.com>. Further information on how Google handles personal data can be found here: [https://policies.google.com/privacy?hl=en](https://policies.google.com/privacy?hl=en).
 
-**Personal data we collect and process to provide services to you and to respond to your inquiries**
+## Personal data we collect and process to provide services to you and to respond to your inquiries
 
 If you interact with order or inquiry forms on the website (e.g. purchasing a KeepKey device or requesting support regarding a device), we will collect the information that you provide to us. We collect and process this personal data for the purpose of providing products and services, as well as information about our products and services to you.
 
@@ -24,7 +24,7 @@ Where such processing of your personal data is not strictly necessary to perform
 
 If you download and interact with the KeepKey client on Google Chrome, we will collect and process your device’s xpub data. This data is necessary to provide the services of the KeepKey client and will always be stored securely. We also use the services of BlockCypher for certain indexing requirements. Further information on data protection and your options in connection with the services of BlockCypher can be found here: [https://www.blockcypher.com/privacy.html](https://www.blockcypher.com/privacy.html).
 
-**We store all of the personal data you provide to us in an encrypted fashion.**
+## We store all of the personal data you provide to us in an encrypted fashion
 
 We use the services of Shopify to process orders on our website. Further information on data protection and your options in connection with the services of Shopify can be found here: [https://www.shopify.com/legal/privacy](https://www.shopify.com/legal/privacy).
 
@@ -38,7 +38,7 @@ We also use the services of Autopilot, an email automation platform, to better r
 
 We use the services of Zendesk, Inc. (“Zendesk”) to answer live queries on the website, in which we have a legitimate interest. Zendesk uses cookies in order to provide these services. Further information on data protection and your options in connection with the services of Zendesk can be found here: [https://www.zendesk.com/company/customers-partners/privacy-policy/](https://www.zendesk.com/company/customers-partners/privacy-policy/) (Zendesk Privacy Policy) and [https://www.zendesk.com/company/customers-partners/cookie-policy/](https://www.zendesk.com/company/customers-partners/cookie-policy/) (Zendesk Cookie Policy).
 
-**Data we collect and process to analyze and improve the use of the website; use of cookies**
+## Data we collect and process to analyze and improve the use of the website; use of cookies
 
 In addition, based on our legitimate interest to bring you the best possible user experience, we analyze the use of the website to gain insight on how we may improve our services. The website uses cookies (text files that are downloaded to your computer or mobile device when you visit a website) to support this analysis.
 
@@ -54,19 +54,19 @@ We use the services of Cloudflare, Inc. (“Cloudflare”) in order to identify 
 
 By adjusting your web-browser’s settings accordingly, you can prevent the storage of cookies on your device and the collection of data. Note, however, that some functions of the website may be limited or unavailable if you disable the storing of cookies.
 
-**Data that we collect and process to target potential customers**
+## Data that we collect and process to target potential customers
 
 We use Google Tag Manager to generate tags for the website and applications. These tags enable us to tailor marketing measures for our services to potential customers (re-targeting).
 
 We use advertising technologies by Google (AdWords). Google sets conversion cookies in accordance with our settings in Google Tag Manager. This is necessary for checking the effectiveness of the respective advertising campaigns. We have a legitimate interest in this. We also use Google Tag Manager to set re-targeting tags. These tags enable us to target users with information about our services when they visit different websites. For information regarding your choices in relation to usage-based online advertising, see: [http://www.youronlinechoices.com](http://www.youronlinechoices.com/). For information about your options in connection with cookies, see above “Data we collect and process to analyze and improve the use of the website; use of cookies”.
 
-**How we process and protect your personal data; how long we store it**
+## How we process and protect your personal data; how long we store it
 
 We collect, process and protect your personal data responsibly and in accordance with applicable laws. We process it only for the purposes for which you provide the personal data to us, as set forth in this Online Privacy Notice and/or in accordance with applicable laws. We store your personal data only for as long as this is necessary.
 
 We apply adequate technical and organizational security measures, commensurate with the level of known risk, in order to protect the confidentiality and integrity of the personal data we collect on the website.
 
-**With whom we share your personal data**
+## With whom we share your personal data
 
 In connection with the offers and services provided on the website, to protect our legitimate interests or to fulfill legal requirements, it may be necessary to share your personal data with our affiliate ShapeShift Global Limited, with business partners of KeepKey, as well as with applicable public authorities and law enforcement upon receipt of a facially valid formal law enforcement request.
 
@@ -76,7 +76,7 @@ Further, to the extent we are requested by public authorities or courts and lega
 
 The data sharing may include transfers to companies or organizations in countries without an adequate standard of data protection. In these cases, we transfer personal data in accordance with applicable provisions on the international transfer of personal data, such as, where applicable, the respective provisions of the EU General Data Protection Regulation (GDPR).
 
-**The rights you have regarding your personal data**
+## The rights you have regarding your personal data
 
 If you are a citizen of the European Union, you have certain individual rights regarding the personal data that we collect and process about you through the website.
 
@@ -86,7 +86,7 @@ Please note, however, that your rights are subject to exceptions or derogations.
 
 Lastly, you have a right to lodge a complaint with the competent supervisory authority.
 
-**Who we are and how to contact us**
+## Who we are and how to contact us
 
 KeepKey is the controller in relation to the collection and processing of personal data through the website. Key Hodlers, LLC is an LLC formed under the laws of the State of Delaware, United States.
 
@@ -96,10 +96,10 @@ To inquire about the collection or processing of your personal data in connectio
 
 For all correspondence, please include any necessary identifying information such as your name, return e-mail or physical address. Failure to do so may prevent us from providing a response.
 
-**Links to Other Websites**
+## Links to Other Websites
 
 Our website does contain links to affiliate and other websites. KeepKey does not claim nor accept responsibility for any privacy policies, practices and/or procedures of other such websites. Therefore, we encourage all users and visitors to be aware when they leave our website and to read the privacy statements of each and every website that collects personally identifiable information. The aforementioned Privacy Policy Agreement applies only and solely to the information collected by our website.
 
-**How we can change this Online Privacy Notice**
+## How we can change this Online Privacy Notice
 
 We reserve the right to change this Online Privacy Notice at any time. The version published on the website is the applicable version.

@@ -4,9 +4,9 @@ If you're familiar with the crypto world you probably have heard of a "DEX". But
 
 The process of executing a trade is completely autonomous and does not require any personal info or verification. You read that last part right; no more entering your email or other personal information before you can execute certain trades on ShapeShift.
 
-![](<../../.gitbook/assets/image (13) (1).png>)
+![Crypto trading on Shapeshift is decentralized](<../../.gitbook/assets/image (13) (1).png>)
 
-### How Does This Work On ShapeShift?
+## How Does This Work On ShapeShift?
 
 When you execute a trade with ShapeShift, you will see a field titled "Rate". Below your rate you will see whether or not 0x or [**THORChain**](https://erikvoorhees.medium.com/an-introduction-to-thorchain-for-bitcoiners-3f621bf0028e) was used for the swap.
 
@@ -18,7 +18,7 @@ ShapeShift has integrated THORChain, which provides the ability for cross-chain 
 
 **\*THORChain** was founded in 2018 and solves the problem of cross-chain trading by building efficient, bi-directional bridges between blockchains at the protocol level in a permissionless, non-custodial manner.
 
-#### Pros
+### Pros
 
 **1.** No KYC
 
@@ -26,7 +26,7 @@ ShapeShift has integrated THORChain, which provides the ability for cross-chain 
 
 **3.** Lots of tokens! Virtually any token can be traded as long as there is available liquidity.
 
-#### Cons
+### Cons
 
 **1.** Liquidity. DEXs are rapidly gaining popularity but if the pair you are trading has low liquidity, it may not be available.
 
