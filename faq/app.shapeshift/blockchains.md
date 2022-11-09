@@ -20,7 +20,7 @@ Ethereum is a technology for building apps and organizations, holding assets, tr
 
 {% embed url="https://www.bitcoin.com/" %}
 
-### DOGECOIN
+### Dogecoin
 
 At its heart, Dogecoin is the accidental crypto movement that makes people smile! It is also an opensource peer-to-peer cryptocurrency that utilises blockchain technology, a highly secure decentralised system of storing information as a public ledger that is maintained by a network of computers called nodes.
 
@@ -38,7 +38,7 @@ Bitcoin Cash brings sound money to the world, fulfilling the original promise of
 
 {% embed url="https://bitcoincash.org/" %}
 
-### COSMOS
+### Cosmos
 
 Cosmos is an ever-expanding ecosystem of interconnected apps and services, built for a decentralized future. Cosmos apps and services connect using IBC, the Inter-Blockchain Communication protocol. This innovation enables you to freely exchange assets and data across sovereign, decentralized blockchains.
 
@@ -68,7 +68,7 @@ The BNB Chain aims to increase interoperability and develop the underlying infra
 
 {% embed url="https://www.bnbchain.org/en" %}
 
-### OSMOSIS
+### Osmosis
 
 Osmosis is a [decentralized exchange (DEX)](https://www.gemini.com/cryptopedia/decentralized-exchange-crypto-dex) and [automated market maker (AMM)](https://www.gemini.com/cryptopedia/amm-what-are-automated-market-makers) protocol for the [Cosmos ecosystem](https://www.gemini.com/cryptopedia/cosmos-crypto-network-internet-of-blockchains). To understand the specifics of Osmosis, it’s helpful for you to know the context of the Cosmos ecosystem upon which and for which it is built. Cosmos is an overarching ecosystem of blockchain networks that can connect with one another as part of Cosmos’ mission to build an “internet of blockchains.
 
