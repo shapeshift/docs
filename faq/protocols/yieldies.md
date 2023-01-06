@@ -1,0 +1,3 @@
+# ⛱ Yieldies
+
+A Yieldy is an ERC20 rebasing token that is redeemable 1:1 with the underlying ERC20 asset. The system allows a user to stake the underlying asset in order to mint a yieldy version of the asset. The underlying asset is then deployed into the DeFi ecosystem to generate yields that are redistributed to stakers in the form of rebases to a user's balance of the Yieldy asset. Users get access to simplified yield that can easily be transferred to another user without having ever to worry about un-staking and can watch rewards accrue to their wallet each week without having to perform any actions.
