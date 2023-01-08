@@ -1,5 +1,5 @@
 ---
-description: About ShapeShift, the organization and it's current platform
+description: About ShapeShift, the organization and its current platform
 cover: .gitbook/assets/youtube_coverphoto.png
 coverY: 0
 ---
