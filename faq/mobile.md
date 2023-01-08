@@ -1,6 +1,6 @@
 # 📱 Mobile
 
-A new open-sourced Shapeshift Mobile App is here!.
+A new open-sourced Shapeshift Mobile App is here!
 
 Using the same open source and decentralized infrastructure.
 

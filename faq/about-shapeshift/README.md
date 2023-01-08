@@ -6,7 +6,7 @@ coverY: 0
 
 # 🦊 ShapeShift
 
-Thank you for being apart of ShapeShift
+Thank you for being a part of ShapeShift.
 
 This sections most frequently used quick links are listed below, all of the sections articles can be searched or found in the left column. Navigation to the next and previous articles is also provided at the bottom of each page.
 
