@@ -6,7 +6,7 @@ coverY: 0
 
 # 🥳 FAQ's
 
-## A source of truth for building understanding
+## A source of truth for building understanding!
 
 Thank you for using ShapeShift products, the following articles are provided to assist and share the basic building blocks of knowledge about our solutions, features and organization. Articles are added and updated as the ShapeShift organization and platform are modified.&#x20;
 
