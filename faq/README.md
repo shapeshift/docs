@@ -4,7 +4,7 @@ cover: .gitbook/assets/youtube_coverphoto.png
 coverY: 0
 ---
 
-# 🥳 FAQ's
+# 🥳 Frequently Asked Questions
 
 ## A source of truth for building understanding
 
