@@ -3,8 +3,9 @@ description: About ShapeShift, the organization and its current platform
 cover: .gitbook/assets/youtube_coverphoto.png
 coverY: 0
 ---
-
-# 🥳 FAQ's
+redirects:  
+    faq.md
+# 🥳 Frequently Asked Questions!!
 
 ## A source of truth for building understanding
 
