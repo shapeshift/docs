@@ -1,4 +1,11 @@
----
+--root: ./
+
+​structure:  
+    readme: README.md  
+    summary: SUMMARY.md​
+
+redirects:  
+    faq.md-
 description: About ShapeShift, the organization and its current platform
 cover: .gitbook/assets/youtube_coverphoto.png
 coverY: 0
