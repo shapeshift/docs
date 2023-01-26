@@ -3,5 +3,5 @@ summary:
   readme: README.md
   summary: SUMMARY.md
 structure:
-  readme: ./faq/README.md
+  readme: ./faq.md
   summary: ./faq/SUMMARY.md
