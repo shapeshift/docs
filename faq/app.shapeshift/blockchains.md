@@ -75,3 +75,10 @@ Osmosis is a [decentralized exchange (DEX)](https://www.gemini.com/cryptopedia/d
 Osmosis is a DEX protocol, which means it uses [smart contracts](https://www.gemini.com/cryptopedia/crypto-smart-contracts-explained) to determine the price of digital assets, to produce [liquidity](https://www.gemini.com/cryptopedia/what-is-liquidity-bid-ask-spread-slippage) via a peer-to-peer (P2P) methodology, and to exact trades between users.
 
 {% embed url="https://osmosis.zone/" %}
+
+
+### Optimism
+
+Optimism is a fast, stable, and scalable L2 blockchain built by Ethereum developers, for Ethereum developers. Built as a minimal extension to existing Ethereum software, Optimism’s EVM-equivalent architecture scales your Ethereum apps without surprises. If it works on Ethereum, it works on Optimism at a fraction of the cost.
+
+{% embed url="https://www.optimism.io/" %}
