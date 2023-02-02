@@ -5,7 +5,7 @@
 ## 📙 FAQ
 
 * [🦊 ShapeShift](about-shapeshift/README.md)
-  * [🔮 The ShapeShift DAO title](about-shapeshift/the-shapeshift-dao.md)
+  * [🔮 The ShapeShift DAO](about-shapeshift/the-shapeshift-dao.md)
   * [🎨 ShapeShift Branding](about-shapeshift/shapeshift-branding.md)
   * [🔄 Contribute](about-shapeshift/contribute/README.md)
     * [💰 Bounties](about-shapeshift/contribute/bounties.md)
