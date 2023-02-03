@@ -36,7 +36,7 @@
 * [👛 Wallets](wallets/README.md)
   * [🔐 KeepKey](wallets/keepkey/README.md)
     * [⚒ KeepKey Set Up](wallets/keepkey/keepkey-set-up.md)
-    * [🎛 KeepKey Settings](wallets/keepkey/keepkey-settings.md)
+    * [🎛 KeepKey Settings](../faq-1/wallets/keepkey/keepkey-settings.md)
     * [🪡 Troubleshooting KeepKey](wallets/keepkey/troubleshooting-keepkey.md)
     * [🏥 How Do I Recover On My KeepKey?](wallets/keepkey/how-do-i-recover-on-my-keepkey.md)
     * [♨ KeepKey Privacy Policy](wallets/keepkey/keepkey-privacy-policy.md)
