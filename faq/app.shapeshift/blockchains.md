@@ -4,7 +4,7 @@ description: A list of the Blockchains that ShapeShift currently supports
 
 # ⛓ Blockchains
 
-A [blockchain](https://www.investopedia.com/terms/b/blockchain.asp)is a distributed database or ledger that is shared among the nodes of a computer network. As a database, a blockchain stores information electronically in digital format.
+A [blockchain](https://www.investopedia.com/terms/b/blockchain.asp) is a distributed database or ledger that is shared among the nodes of a computer network. As a database, a blockchain stores information electronically in digital format.
 
 ## Currently ShapeShift supports 10 different chains.
 
@@ -47,8 +47,6 @@ Cosmos is an ever-expanding ecosystem of interconnected apps and services, built
 ### Avalanche
 
 Avalanche is an open, programmable smart contracts platform for decentralized applications. Build fast, low cost, Solidity-compatible dApps. Launch customized blockchains, private & public. Scale to millions of validators with minimal hardware.
-
-\*Avalanche is supported on ShapeShift and MetaMask currently. Support for KeepKey and other wallets coming soon.
 
 {% embed url="https://www.avax.network/" %}
 

@@ -9,7 +9,6 @@
   * [🎨 ShapeShift Branding](about-shapeshift/shapeshift-branding.md)
   * [🔄 Contribute](about-shapeshift/contribute/README.md)
     * [💰 Bounties](about-shapeshift/contribute/bounties.md)
-    * [💻 Codebase](about-shapeshift/contribute/codebase.md)
   * [🔸 What Is A DEX?](about-shapeshift/what-is-a-dex.md)
   * [🎗 Important Links When Interacting with the ShapeShift DAO](about-shapeshift/important-links-when-interacting-with-the-shapeshift-dao.md)
   * [📡 FOX Current CEX/DEX Listings](about-shapeshift/daos-current-cex-dex-listings.md)
