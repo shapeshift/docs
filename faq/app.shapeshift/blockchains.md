@@ -6,7 +6,7 @@ description: A list of the Blockchains that ShapeShift currently supports
 
 A [blockchain](https://www.investopedia.com/terms/b/blockchain.asp)is a distributed database or ledger that is shared among the nodes of a computer network. As a database, a blockchain stores information electronically in digital format.
 
-## Currently ShapeShift supports 10 different chains.&#x20;
+## Currently ShapeShift supports 10 different chains.
 
 ### Ethereum
 
@@ -48,7 +48,7 @@ Cosmos is an ever-expanding ecosystem of interconnected apps and services, built
 
 Avalanche is an open, programmable smart contracts platform for decentralized applications. Build fast, low cost, Solidity-compatible dApps. Launch customized blockchains, private & public. Scale to millions of validators with minimal hardware.
 
-\*Avalanche is supported on ShapeShift only when connected to MetaMask currently. Support for Native and other wallets coming soon.&#x20;
+\*Avalanche is supported on ShapeShift and MetaMask currently. Support for KeepKey and other wallets coming soon.
 
 {% embed url="https://www.avax.network/" %}
 
@@ -58,16 +58,6 @@ Avalanche is an open, programmable smart contracts platform for decentralized ap
 
 {% embed url="https://thorchain.com/" %}
 
-### BNB
-
-“BNB stands for “Build the community, and let the community build, build, ’n build.”
-
-The recently released BNB Chain comprises the BNB Beacon Chain for BNB Chain governance (i.e., staking and voting) and the BNB Smart Chain, which remains [Ethereum Virtual Machine (EVM) compatible](https://cointelegraph.com/ethereum-for-beginners/architectural-components-of-the-ethereum-blockchain-what-are-they).
-
-The BNB Chain aims to increase interoperability and develop the underlying infrastructure of the “world’s parallel virtual environment,” a step forward in Binance’s recent MetaFi efforts.
-
-{% embed url="https://www.bnbchain.org/en" %}
-
 ### Osmosis
 
 Osmosis is a [decentralized exchange (DEX)](https://www.gemini.com/cryptopedia/decentralized-exchange-crypto-dex) and [automated market maker (AMM)](https://www.gemini.com/cryptopedia/amm-what-are-automated-market-makers) protocol for the [Cosmos ecosystem](https://www.gemini.com/cryptopedia/cosmos-crypto-network-internet-of-blockchains). To understand the specifics of Osmosis, it’s helpful for you to know the context of the Cosmos ecosystem upon which and for which it is built. Cosmos is an overarching ecosystem of blockchain networks that can connect with one another as part of Cosmos’ mission to build an “internet of blockchains.
@@ -75,7 +65,6 @@ Osmosis is a [decentralized exchange (DEX)](https://www.gemini.com/cryptopedia/d
 Osmosis is a DEX protocol, which means it uses [smart contracts](https://www.gemini.com/cryptopedia/crypto-smart-contracts-explained) to determine the price of digital assets, to produce [liquidity](https://www.gemini.com/cryptopedia/what-is-liquidity-bid-ask-spread-slippage) via a peer-to-peer (P2P) methodology, and to exact trades between users.
 
 {% embed url="https://osmosis.zone/" %}
-
 
 ### Optimism
 

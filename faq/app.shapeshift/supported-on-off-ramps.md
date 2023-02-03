@@ -12,7 +12,19 @@ Local payments, higher conversions, more customers. Banxa offers more global and
 
 {% embed url="https://banxa.com/" %}
 
+### Gem
 
+Gem Onramp lets users buy and transfer crypto with any payment method or exchange.
+
+{% embed url="https://gem.co/" %}
+
+### JunoPay&#x20;
+
+Earn, invest and spend both your cash and crypto from one powerful checking account
+
+\*Available in the US only
+
+{% embed url="https://juno.finance/pay" %}
 
 ### Mt Perelin
 
