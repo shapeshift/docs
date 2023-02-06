@@ -4,8 +4,6 @@ If you're familiar with the crypto world you probably have heard of a "DEX". But
 
 The process of executing a trade is completely autonomous and does not require any personal info or verification. You read that last part right; no more entering your email or other personal information before you can execute certain trades on ShapeShift.
 
-![Our platform is commited to becoming completly Decentralized](<../../.gitbook/assets/image (13) (1).png>)
-
 ## How Does This Work On ShapeShift?
 
 When you execute a trade with ShapeShift, you will see a field titled "Rate". Below your rate you will see whether or not 0x or [**THORChain**](https://erikvoorhees.medium.com/an-introduction-to-thorchain-for-bitcoiners-3f621bf0028e) was used for the swap.
@@ -33,16 +31,6 @@ ShapeShift has integrated THORChain, which provides the ability for cross-chain 
 **2.** Fees. If the network is congested, you're more likely to encounter higher [miner fees.](https://shapeshift.com/miner-fees)
 
 **3.** Failed orders must be validated on-chain, which can be costly.
-
-### Popular DEXs
-
-[**UniSwap**](https://uniswap.org/)
-
-[**SushiSwap**](https://sushiswap.fi/)
-
-[**Kyber Network**](https://kyber.network/about/knc)
-
-[**AirSwap**](https://www.airswap.io/)
 
 ### Slippage
 
