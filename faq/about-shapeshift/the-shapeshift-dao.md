@@ -2,7 +2,7 @@
 description: What does this mean?
 ---
 
-# 🔮 The ShapeShift DAO
+# 🔮 ShapeShift DAO Terminology
 
 ### The Seeds
 
@@ -12,7 +12,7 @@ The former ShapeShiftAG organization made the first official documented transiti
 Official ShapeShift article release
 {% endembed %}
 
-### ShapeShift DAO Terminology
+### Terminology
 
 #### **DAO -** Decentralized Autonomous Organization
 
