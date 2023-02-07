@@ -1,4 +1,4 @@
-# 🚀 What is app.ShapeShift.com?
+# 🚀 What is app.shapeshift.com?
 
 ## **New Web Platform - app.shapeshift.com** ‍
 
