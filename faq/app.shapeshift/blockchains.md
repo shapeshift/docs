@@ -69,3 +69,9 @@ Osmosis is a DEX protocol, which means it uses [smart contracts](https://www.gem
 Optimism is a fast, stable, and scalable L2 blockchain built by Ethereum developers, for Ethereum developers. Built as a minimal extension to existing Ethereum software, Optimism’s EVM-equivalent architecture scales your Ethereum apps without surprises. If it works on Ethereum, it works on Optimism at a fraction of the cost.
 
 {% embed url="https://www.optimism.io/" %}
+
+### BNB Smart Chain
+
+Launched by the cryptocurrency exchange Binance, BNB Smart Chain (BSC), previously Binance Smart Chain, supports smart contracts and decentralized applications (DApps). BSC runs alongside the BNB Chain, previously Binance Chain. This dual-chain architecture will empower its users to build their decentralized apps and digital assets on one blockchain and take advantage of the fast trading to exchange on the other.
+
+{% embed url="https://www.bnbchain.org/en/smartChain" %}
