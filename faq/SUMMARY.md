@@ -12,6 +12,7 @@
   * [🛠 Open Source](app.shapeshift/open-source.md)
   * [⛓ Blockchains](app.shapeshift/blockchains.md)
   * [🪜 Supported ON/OFF Ramps](app.shapeshift/supported-on-off-ramps.md)
+* [📥 How To Import A Seed Phrase](../faq-1/how-to-import-a-seed-phrase.md)
 * [🎛 Protocols](protocols/README.md)
   * [💰 DeFi Section - Overview](protocols/defi-section-overview.md)
   * [🚜 Liquidity Pools & Farming](protocols/liquidity-pools-and-farming.md)
