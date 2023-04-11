@@ -16,6 +16,6 @@
 
 **8.** You will be redirected to the dashboard. Your wallet has successfully been imported!
 
-
+* A video to show how to import a Portis Wallet to ShapeShift: [https://youtu.be/G63uBJj4zyw](https://youtu.be/G63uBJj4zyw)
 
 _**Important:**_ Make sure you are on the correct website before entering your 12 word recovery sentence/seed phrase. Entering your seed phrase on the wrong website can result in a loss of funds and/or a compromised wallet.
