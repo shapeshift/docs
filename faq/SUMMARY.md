@@ -27,6 +27,7 @@
   * [🛡 Idle Finance](protocols/idle-finance.md)
   * [🎁 Tokemak](protocols/tokemak.md)
   * [🪙 Validators](protocols/validators.md)
+  * [🌉 LI.FI](../faq-1/protocols/li.fi.md)
   * [🌐 Wallet Connect](../faq-1/protocols/wallet-connect.md)
 * [👛 Wallets](wallets/README.md)
   * [🔐 KeepKey](wallets/keepkey/README.md)
