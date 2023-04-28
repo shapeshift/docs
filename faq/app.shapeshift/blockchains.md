@@ -76,8 +76,6 @@ Launched by the cryptocurrency exchange Binance, BNB Smart Chain (BSC), previous
 
 {% embed url="https://www.bnbchain.org/en/smartChain" %}
 
-_**Coming soon:**_
-
 ### Polygon
 
 Polygon is the most proven way to build and scale your projects on Ethereum, the world's largest blockchain ecosystem. Polygon's native token is named MATIC. Polygon, formerly known as Matic network, provides an easy framework for new and existing blockchain projects to build on Ethereum without scalability issues. Using Polygon, users can interact with any[ decentralized application](https://cointelegraph.com/defi-101/what-are-dapps-everything-there-is-to-know-about-decentralized-applications) (DApp) without ever having to worry about network congestion.
