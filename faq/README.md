@@ -1,6 +1,6 @@
 ---
 description: Articles about our organization, platform, and operations
-cover: ../../.gitbook/assets/landingpage_hires.png
+cover: ../.gitbook/assets/landingpage_hires.png
 coverY: 0
 ---
 
