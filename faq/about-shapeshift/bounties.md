@@ -6,7 +6,7 @@ The DAO has different workstreams that can and frequently offer bounty work when
 
 For engineers, feel free to join **Dework** here: [https://app.dework.xyz/shapeshift-dao](https://app.dework.xyz/shapeshift-dao)
 
-or our [**Discord**](https://discord.gg/shapeshift) **** channel here: [https://discord.com/channels/554694662431178782/892882353200963617](https://discord.com/channels/554694662431178782/892882353200963617)
+or our [**Discord**](https://discord.gg/shapeshift) channel here: [https://discord.com/channels/554694662431178782/892882353200963617](https://discord.com/channels/554694662431178782/892882353200963617)
 
 To check on a specific workstream bounty board, check these links below:
 
