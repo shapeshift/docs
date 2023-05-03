@@ -7,5 +7,5 @@ Including:
 * [THORChain Savers](../../../faq-1/protocols/thorchain-saver-vaults.md)
 * [Liquidity Pools & Farming](../liquidity-pools-and-farming.md)
 * [Yearn](../yearn.md)
-* [Idle Finance](idle-finance/)
+* [Idle Finance](../idle-finance.md)
 * [Yieldies](../yieldies.md)

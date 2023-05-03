@@ -16,7 +16,7 @@
     * [⚒ THORChain Saver Vaults](../faq-1/protocols/thorchain-saver-vaults.md)
     * [🚜 Liquidity Pools & Farming](protocols/liquidity-pools-and-farming.md)
     * [🔓 Yearn](protocols/yearn.md)
-    * [🛡 Idle Finance](protocols/earning-opportunities/idle-finance/README.md)
+    * [🛡 Idle Finance](protocols/idle-finance.md)
       * [✨ Best Yield](protocols/earning-opportunities/idle-finance/best-yield.md)
       * [👶 Junior Tranche](protocols/earning-opportunities/idle-finance/junior-tranche.md)
       * [👴 Senior Tranche](protocols/earning-opportunities/idle-finance/senior-tranche.md)
