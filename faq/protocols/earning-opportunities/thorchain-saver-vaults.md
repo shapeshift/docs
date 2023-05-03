@@ -19,3 +19,4 @@ Depositing assets into THORChain Savers has never been easier or more transparen
 3. View your estimated yearly earnings in dollars, APY and token received&#x20;
 4. Click “Deposit”
 5. Confirm the transaction in your wallet
+6.

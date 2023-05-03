@@ -6,7 +6,7 @@ description: A list of the Blockchains that ShapeShift currently supports
 
 A [blockchain](https://www.investopedia.com/terms/b/blockchain.asp) is a distributed database or ledger that is shared among the nodes of a computer network. As a database, a blockchain stores information electronically in digital format.
 
-## Currently ShapeShift supports 10 different chains.
+## Currently ShapeShift supports 12 different chains.
 
 ### Ethereum
 

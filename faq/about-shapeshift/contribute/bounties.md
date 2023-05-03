@@ -25,3 +25,9 @@ To check on a specific workstream bounty board, check these links below:
 ## Growth and Marketing opportunities
 
 **Share**: [https://joinshare.xyz/community/1](https://joinshare.xyz/community/1)
+
+
+
+**NOTE**: Currently there are no open bounties as ShapeShift is concentrating on developing all features etc in house. Not to say there wont be Bounties in the future but currently Bounties are not being offered.&#x20;
+
+When they become available again, make sure to check the relevant channels listed above!
