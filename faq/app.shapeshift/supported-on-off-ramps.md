@@ -12,9 +12,9 @@ Local payments, higher conversions, more customers. Banxa offers more global and
 
 {% embed url="https://banxa.com/" %}
 
-### Mt Perelin
+### Mt Pelerin
 
-Mt Perelin are an authorized Swiss financial intermediary and their regulation allows for KYC-less money exchange under certain thresholds. As a result, you can buy crypto with Mt Perelin without having to pass KYC below the following limits. You can still pass it and remove these limits for unlimited transfers.
+Mt Pelerin are an authorized Swiss financial intermediary and their regulation allows for KYC-less money exchange under certain thresholds. As a result, you can buy crypto with Mt Perelin without having to pass KYC below the following limits. You can still pass it and remove these limits for unlimited transfers.
 
 {% embed url="https://www.mtpelerin.com/" %}
 
