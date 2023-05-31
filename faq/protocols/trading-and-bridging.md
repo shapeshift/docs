@@ -56,3 +56,12 @@ So far ShapeShift has been able to implement LI.FI bridging between EVM Chains. 
 
 {% embed url="https://li.fi/" %}
 
+### 1inch
+
+1inch protocol provides aggregation information services on exchange protocols and networks. The core part of the protocol is the 1inch v5 smart contract, which performs runtime verification of transaction execution.
+
+As a result, user funds can't be lost even in case of interaction with an unsafe liquidity source. Since the smart contract ensures security, the protocol can be used in various aggregation information services, such as Pathfinder, developed and run by the 1inch Labs.
+
+1inch instantly analyzes thousands of quotes and fees across multiple DEXes to provide users with the best rates.
+
+{% embed url="https://1inch.io/" %}

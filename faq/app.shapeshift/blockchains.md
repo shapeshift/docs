@@ -81,3 +81,13 @@ Launched by the cryptocurrency exchange Binance, BNB Smart Chain (BSC), previous
 Polygon is the most proven way to build and scale your projects on Ethereum, the world's largest blockchain ecosystem. Polygon's native token is named MATIC. Polygon, formerly known as Matic network, provides an easy framework for new and existing blockchain projects to build on Ethereum without scalability issues. Using Polygon, users can interact with any[ decentralized application](https://cointelegraph.com/defi-101/what-are-dapps-everything-there-is-to-know-about-decentralized-applications) (DApp) without ever having to worry about network congestion.
 
 {% embed url="https://polygon.technology/" %}
+
+### Gnosis
+
+Gnosis Chain is one of the first Ethereum sidechains and has stayed true to its values.
+
+By allowing contributors around the globe to easily run a node, Gnosis Chain is secured by over 120k validators. Its diverse validator set and the community governance ensure Gnosis Chain remains credibly neutral at a much lower price point than mainnet.
+
+Gnosis Chain is EVM-based and secured by at-home stakers around the world. Gnosis has all the tooling you are used to and trustless bridges to mainnet soon.
+
+{% embed url="https://www.gnosis.io/" %}
