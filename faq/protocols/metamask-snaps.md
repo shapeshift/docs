@@ -14,4 +14,4 @@ A Snap plugin for MetaMask enabling key derivation and signing functionality for
 * THORChain
 * Osmosis
 
-Connect to the ShapeShift app via MetaMask and gain access to all the Multichain features offered by ShapeShift.&#x20;
+Connect to the ShapeShift app via MetaMask, download the Snap, and gain access to all the Multichain features offered by ShapeShift.&#x20;
