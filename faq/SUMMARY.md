@@ -21,6 +21,7 @@
       * [👶 Junior Tranche](protocols/earning-opportunities/idle-finance/junior-tranche.md)
       * [👴 Senior Tranche](protocols/earning-opportunities/idle-finance/senior-tranche.md)
     * [⛱ Yieldies](protocols/yieldies.md)
+  * [MetaMask Snaps](protocols/metamask-snaps.md)
   * [🌐 Wallet Connect](../faq-1/protocols/wallet-connect.md)
   * [🪙 Validators](protocols/validators.md)
 * [👛 Wallets](wallets/README.md)
